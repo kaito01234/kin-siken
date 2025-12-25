@@ -1,0 +1,4727 @@
+[
+  {
+    "id": 1,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「テーブル」を配置し、「数値」フィールドで設定した「単価」と「個数」を掛け算した結果を「小計」に表示している。\n「個数」が未入力のときに表示される内容として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「小計」の欄に「#VALUE!」というエラーメッセージが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html#autocalc_if_function_1030",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "「小計」の欄に「#N/A!」というエラーメッセージが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html#autocalc_if_function_1030",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "「個数」の欄に「#VALUE!」というエラーメッセージが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html#autocalc_if_function_1030",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "「小計」の欄に「個数」が「0」として計算した結果が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html#autocalc_if_function_1030",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 2,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「文字列（1行）」フィールドに、別々のフィールドに入力されている値を結合して表示したい。\n設定する方法として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "文字列を結合する計算式には、フィールドコードを利用する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040511.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "結合するフィールドに「ラジオボタン」フィールドを指定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040511.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "文字列を結合する演算子には、半角の「+」を使用する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040511.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "結合するフィールドに「ドロップダウン」フィールドを指定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040511.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 3,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「関連レコード一覧」フィールドの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "表示するフィールドの横幅を変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040550.html",
+        "textReference": "2-6-1 関連レコード一覧とは"
+      },
+      {
+        "label": "B",
+        "text": "フィールドに表示された値は、集計、自動計算の操作の対象に含まれない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040550.html",
+        "textReference": "2-6-1 関連レコード一覧とは"
+      },
+      {
+        "label": "C",
+        "text": "フィールドに表示された値は、アプリ内検索の操作の対象に含まれない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040550.html",
+        "textReference": "2-6-1 関連レコード一覧とは"
+      },
+      {
+        "label": "D",
+        "text": "フィールドに表示された値は、ファイルの書き出し権限があれば、ファイルに書き出せる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040550.html",
+        "textReference": "2-6-1 関連レコード一覧とは"
+      }
+    ],
+    "correctAnswer": "BC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 4,
+    "category": "アプリ",
+    "content": "レコードの一括削除に関する説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レコードを一括で削除するには、アプリの管理権限があれば良い。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040716.html",
+        "textReference": "1-4-6 レコードの一括削除"
+      },
+      {
+        "label": "B",
+        "text": "レコード一覧画面で絞り込んだ結果にかかわらず、すべてのレコードを一括で削除できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040716.html",
+        "textReference": "1-4-6 レコードの一括削除"
+      },
+      {
+        "label": "C",
+        "text": "一括で削除できるレコードの数は、一度に1,000件までである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040716.html",
+        "textReference": "1-4-6 レコードの一括削除"
+      },
+      {
+        "label": "D",
+        "text": "レコードを一括で削除するためには、「アプリの設定」→「設定」タブ→「高度な設定」で、「レコード一括削除を有効にする」を選択する必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040716.html",
+        "textReference": "1-4-6 レコードの一括削除"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 5,
+    "category": "アプリ",
+    "content": "アプリを作成するうえで、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「あたらしくアプリを作る」→「ほかのアプリを再利用」をクリックすると、ほかのドメインで作成したアプリを読み込むことができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040620.html",
+        "textReference": "1-1-9 方法6：ほかのアプリを再利用して新しく作成する（アプリのコピー）"
+      },
+      {
+        "label": "B",
+        "text": "拡張子が「.xls」のファイルを読み込んでアプリを作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040620.html",
+        "textReference": "1-1-6 方法3：Excelファイルからアプリを作成する"
+      },
+      {
+        "label": "C",
+        "text": "アプリ管理権限を持つユーザーは、JavaScriptでカスタマイズされたアプリテンプレートファイルを読み込んで、アプリを作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040620.html",
+        "textReference": "1-1-8 方法5：テンプレートファイルからアプリを作成する"
+      },
+      {
+        "label": "D",
+        "text": "アプリをテンプレート化すれば、アプリテンプレートからアプリを作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040620.html",
+        "textReference": "1-1-10 方法7：登録済みのテンプレートからアプリを作成する"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 6,
+    "category": "アプリ",
+    "content": "総務部に所属するAさんに、総務部では閲覧を許可していない「営業日報」アプリを閲覧させたい。\n「営業日報」アプリの「アプリの設定」→「設定」タブ→「アクセス権」で、設定する手順として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「アクセス権」→「レコード」で、総務部にレコード閲覧権限が付与されていないことを確認し、総務部より上の行にAさんを追加しレコード閲覧権限を付与する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040589.html",
+        "textReference": "3-6-3 レコードのアクセス権"
+      },
+      {
+        "label": "B",
+        "text": "「アクセス権」→「レコード」で、総務部にレコード閲覧権限が付与されていないことを確認し、総務部より下の行にAさんを追加しレコード閲覧権限を付与する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040589.html",
+        "textReference": "3-6-3 レコードのアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "「アクセス権」→「アプリ」で、総務部にレコード閲覧権限が付与されていないことを確認し、総務部より上の行にAさんを追加しレコード閲覧権限を付与する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040589.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "「アクセス権」→「アプリ」で、総務部にレコード閲覧権限が付与されていないことを確認し、総務部より下の行にAさんを追加しレコード閲覧権限を付与する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040589.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 7,
+    "category": "アプリ",
+    "content": "プロセス管理の設定についての説明で、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "プロセス管理では、「ステータス」「アクション」「作業者」の3つを組み合わせてプロセスを設定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040573.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "B",
+        "text": "作業者が設定されていない場合、アクションを実行するためのボタンは、レコードの作成者のみレコード詳細画面に表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040573.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "C",
+        "text": "変更履歴からステータスや作業者を過去のバージョンに戻すことができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040461.html#history_whatshistory_20",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "D",
+        "text": "プロセス管理機能を有効にする前に登録したレコードは、レコードのステータスを変更しても、作業者の設定が反映されない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040575.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 8,
+    "category": "アプリ",
+    "content": "アプリのレコード一覧画面のショートカットキーの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "enter：選択したレコードの詳細を表示する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040319.html",
+        "textReference": "1-2-2 レコードの登録"
+      },
+      {
+        "label": "B",
+        "text": "c：レコードを追加する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040319.html",
+        "textReference": "1-2-2 レコードの登録"
+      },
+      {
+        "label": "C",
+        "text": "d：選択したレコードを削除する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040319.html",
+        "textReference": "1-2-2 レコードの登録"
+      },
+      {
+        "label": "D",
+        "text": "e：選択したレコードを編集する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040319.html",
+        "textReference": "1-2-2 レコードの登録"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 9,
+    "category": "アプリ",
+    "content": "商品の売上を管理する「売上管理アプリ」で、レコード一覧画面に「AスーパーとBコンビニの注文のうち、今月売上予定のものだけ」を表示するため、次の2つの条件を同時に満たしたい。\n\n条件：\n・顧客名が「Aスーパー」か「Bコンビニ」のいずれかと等しい\n・売上月が「今月」と等しい\n\n実現する方法として、最適なものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "絞り込み機能を拡張するため、JavaScriptを用いてカスタマイズする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040457.html",
+        "textReference": "1-4-1 表示するレコードの絞り込み"
+      },
+      {
+        "label": "B",
+        "text": "「Aスーパー」用の絞り込みの一覧と、「Bコンビニ」用の絞り込みの一覧をそれぞれ作成する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040457.html",
+        "textReference": "1-4-1 表示するレコードの絞り込み"
+      },
+      {
+        "label": "C",
+        "text": "kintone上では実現できないため、ファイルに書き出し、Excelのフィルター機能を使用する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040457.html",
+        "textReference": "1-4-1 表示するレコードの絞り込み"
+      },
+      {
+        "label": "D",
+        "text": "「次のいずれかと等しい」の条件を含む、絞り込みの一覧を1つ作成する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040457.html",
+        "textReference": "1-4-1 表示するレコードの絞り込み"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 10,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「設定」タブ→「レコードのタイトル」で、レコードタイトルに指定できるフィールドタイプをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "テーブル化したフィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040604.html",
+        "textReference": "3-7-3 レコードのタイトル"
+      },
+      {
+        "label": "B",
+        "text": "文字列（複数行）",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040604.html",
+        "textReference": "3-7-3 レコードのタイトル"
+      },
+      {
+        "label": "C",
+        "text": "計算",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040604.html",
+        "textReference": "3-7-3 レコードのタイトル"
+      },
+      {
+        "label": "D",
+        "text": "ルックアップ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040604.html",
+        "textReference": "3-7-3 レコードのタイトル"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 11,
+    "category": "アプリ",
+    "content": "アプリの集計機能の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリの管理者以外がレコードを集計できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040465.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "B",
+        "text": "埋め込み用タグ（HTML形式）を利用して外部サイトのページに埋め込まれたアプリのグラフや表は、cybozu.comユーザーでなくても閲覧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040465.html",
+        "textReference": "1-5-5 集計結果の埋め込み用タグの取得"
+      },
+      {
+        "label": "C",
+        "text": "「分類する項目」に指定した項目の値が空のレコードは、集計対象にならない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040465.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "D",
+        "text": "集計結果の埋め込み用タグ（HTML形式）を取得できるのは、アプリに保存したグラフのみである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040465.html",
+        "textReference": "1-5-5 集計結果の埋め込み用タグの取得"
+      }
+    ],
+    "correctAnswer": "CD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 12,
+    "category": "アプリ",
+    "content": "レコードが登録されて10日経過したら、指定したユーザーに通知を送信したい。\n利用する機能として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "リマインダーの条件通知",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040564.html",
+        "textReference": "3-4-4 リマインダーの条件通知"
+      },
+      {
+        "label": "B",
+        "text": "レコードの条件通知",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040564.html",
+        "textReference": "3-4-3 レコードの条件通知"
+      },
+      {
+        "label": "C",
+        "text": "「日付」フィールドの設定",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040564.html",
+        "textReference": "3-4-4 リマインダーの条件通知"
+      },
+      {
+        "label": "D",
+        "text": "アプリの条件通知",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040564.html",
+        "textReference": "3-4-2 アプリの条件通知"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 13,
+    "category": "アプリ",
+    "content": "すでに運用されているアプリの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「アプリのアクセス権」画面で、そのアプリの管理権限を付与できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040589.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "B",
+        "text": "フィールドの設定でフィールドコードを変更した場合、すでに設定済みの計算式内で使用されているフィールドコードにおいても、自動的に同じ変更が適用される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040509.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "「アプリの設定」→「設定」タブ→「高度な設定」で、「レコードのコメント機能を有効にする」の選択を外した場合、過去に書き込んだコメントも削除される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040480.html",
+        "textReference": "3-7-4 高度な設定"
+      },
+      {
+        "label": "D",
+        "text": "kintoneシステム管理者は、「アプリ管理」の「アプリの一覧」にて、自分に管理権限のあるアプリの一覧をCSV形式でダウンロードできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04014.html",
+        "textReference": "5-3-2 アプリの管理"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 14,
+    "category": "アプリ",
+    "content": "フォームの説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "一度設定して公開したフォームは、あとから変更できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040494.html",
+        "textReference": "2-1-1 フォームとは"
+      },
+      {
+        "label": "B",
+        "text": "フィールドは1つのアプリに1,000個まで配置できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040494.html",
+        "textReference": "2-1-2 フォームの設定"
+      },
+      {
+        "label": "C",
+        "text": "フォームを設定できるのはアプリの管理者のみである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040494.html",
+        "textReference": "2-1-1 フォームとは"
+      },
+      {
+        "label": "D",
+        "text": "フォームはアプリごとに複数設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040494.html",
+        "textReference": "2-1-1 フォームとは"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 15,
+    "category": "アプリ",
+    "content": "「組織選択」フィールドの説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ゲストスペース内のアプリでも、「組織選択」フィールドを使用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040523.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "B",
+        "text": "組織名や組織コードを入力して、表示される組織を選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040523.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "C",
+        "text": "あらかじめ組織の選択肢を指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040523.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "D",
+        "text": "複数の組織を選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040523.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 16,
+    "category": "アプリ",
+    "content": "「グループ選択」フィールドの説明として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "グループは、アプリの管理画面で追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04061.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "B",
+        "text": "グループを追加する際は、組織と関連付ける必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04061.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "「グループ選択」フィールドを利用して、アクセス権や通知を組み合わせて設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040530.html",
+        "textReference": "3-6-4 フィールドのアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "グループの選択肢を指定しない場合、すべてのグループが選択対象になる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040530.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 17,
+    "category": "アプリ",
+    "content": "アプリの高度な設定の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "数値の有効桁数と丸めかたを設定変更すると、次にレコードを更新したときに、数値フィールドと計算フィールドの値が、設定に合わせて変更される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040477.html",
+        "textReference": "3-7-4 高度な設定"
+      },
+      {
+        "label": "B",
+        "text": "「レコードのコメント機能を有効にする」のチェックを外しても、過去に書き込んだコメントはデータとして保持される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040477.html",
+        "textReference": "3-7-4 高度な設定"
+      },
+      {
+        "label": "C",
+        "text": "四半期の開始月は、指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040477.html",
+        "textReference": "3-7-4 高度な設定"
+      },
+      {
+        "label": "D",
+        "text": "レコード一括削除機能は、初期設定で有効である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040477.html",
+        "textReference": "3-7-4 高度な設定"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 18,
+    "category": "アプリ",
+    "content": "フィールドコードの説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "全角記号のうち、フィールドコードとして使用できるのは「＿（アンダースコア）」のみである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040504.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "フィールドコードにはすべての英単語を使用することができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040504.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "数字で始まるフィールドコードは指定できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040504.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "空の状態でも保存できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040504.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 19,
+    "category": "アプリ",
+    "content": "CSVファイルからアプリを作成する際の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "数値を読み込む場合、「,（桁区切り記号）」、「\\（円記号）などの通貨記号」は使用できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040624.html",
+        "textReference": "1-1-7 方法4：CSVファイルからアプリを作成する"
+      },
+      {
+        "label": "B",
+        "text": "最大100MB、500列、1万行までのCSVファイルを読み込むことができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040624.html",
+        "textReference": "1-1-7 方法4：CSVファイルからアプリを作成する"
+      },
+      {
+        "label": "C",
+        "text": "日本語と英数字以外の文字が含まれている場合、文字コードに「JIS（ジス）コード」を指定してファイルを保存する必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040624.html",
+        "textReference": "1-1-7 方法4：CSVファイルからアプリを作成する"
+      },
+      {
+        "label": "D",
+        "text": "「ユーザー選択」フィールドとして読み込む場合、ログイン名を入力する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040624.html",
+        "textReference": "1-1-7 方法4：CSVファイルからアプリを作成する"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 20,
+    "category": "アプリ",
+    "content": "アプリのレコード一覧画面から作成できるグラフの種類として誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "曲線面グラフ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040581.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "B",
+        "text": "折れ線グラフ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040581.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "C",
+        "text": "レーダーチャート",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040581.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "D",
+        "text": "曲線グラフ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040581.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 21,
+    "category": "アプリ",
+    "content": "ファイルを読み込みレコードを一括更新する際の注意点として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「文字列（1行)」フィールドは、フィールドの設定に関わらず「一括更新のキーにするフィールド」に指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "B",
+        "text": "「一括更新のキー」にするフィールドは、複数のレコードで値が重複しないフィールドを指定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "C",
+        "text": "「一括更新のキー」に指定したフィールドと一致する値が、対応付けしたファイルの列にない場合、ファイルのその行のデータは新しいレコードとして登録される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "D",
+        "text": "「ラベル」フィールドは「一括更新のキー」にするフィールドに指定できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 22,
+    "category": "アプリ",
+    "content": "「添付ファイル」フィールドの説明として、適切でないものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Excel、Word、PDFファイルなど、ファイルの種類を問わず添付できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040514.html",
+        "textReference": "2-2-7 添付ファイル"
+      },
+      {
+        "label": "B",
+        "text": "1つのフィールドに複数のファイルを添付することはできない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040514.html",
+        "textReference": "2-2-7 添付ファイル"
+      },
+      {
+        "label": "C",
+        "text": "画像ファイルを添付するとサムネイル（縮小画像）が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040514.html",
+        "textReference": "2-2-7 添付ファイル"
+      },
+      {
+        "label": "D",
+        "text": "ファイルの添付を必須項目にするか否か選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040514.html",
+        "textReference": "2-2-7 添付ファイル"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 23,
+    "category": "アプリ",
+    "content": "テーブルに設定できるフィールドの種類として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レコード番号",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      },
+      {
+        "label": "B",
+        "text": "リンク",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      },
+      {
+        "label": "C",
+        "text": "関連レコード一覧",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      },
+      {
+        "label": "D",
+        "text": "添付ファイル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 24,
+    "category": "アプリ",
+    "content": "「申込日」という日付フィールドの値の30日後を表示したい。\n計算フィールドに入力する日付の計算式として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "申込日+30",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040502.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "申込日+(24*30)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040502.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "申込日+(60*24*30)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040502.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "申込日+(60*60*24*30)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040502.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 25,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「設定」タブ→「プロセス管理」で、作業者に複数人の部長を設定した。プロセス管理の設定の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "作業者に「次のユーザーから作業者を選択」を設定すると、申請時に部長の1人を選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040575.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "B",
+        "text": "作業者に「次のユーザー全員」を設定すると、全員が作業者になり、全員がアクションを実行したときに次のステータスに進むようにできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040575.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "C",
+        "text": "作業者に「次のユーザーのうち1人」を設定すると、申請時に部長の1人を選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040575.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "D",
+        "text": "作業者に「次のユーザーがアクション」を設定すると、誰か1人がアクションを実行したときに次のステータスに進むようにできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040575.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 26,
+    "category": "スペース",
+    "content": "スペース内アプリの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ゲストスペースに作成したアプリの、所属するスペースをあとから変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040639.html",
+        "textReference": "4-3-1 ゲストスペースとは"
+      },
+      {
+        "label": "B",
+        "text": "スペース内にアプリを作成できるユーザーを、スペース管理者のみに限定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040709.html",
+        "textReference": "4-1-3 スペースの設定の変更"
+      },
+      {
+        "label": "C",
+        "text": "スペース内アプリは、「Public」アプリグループに所属し、所属するアプリグループは変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040709.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      },
+      {
+        "label": "D",
+        "text": "非公開のスペースに所属するアプリには、スペースのメンバーだけがアクセスできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040709.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 27,
+    "category": "スペース",
+    "content": "「スレッドアクション」で、コピー元のデータ【ア】と、コピー先に指定できるフィールド【イ】の組み合わせとして、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "【ア】：コメントの投稿日時\n【イ】：「日時」フィールド、「日付」フィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "B",
+        "text": "【ア】：コメントの内容\n【イ】：「文字列（1行）」フィールド、「文字列（複数行）」フィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "C",
+        "text": "【ア】：コメントのURL\n【イ】：「リンク」フィールド（入力値の種類を「Webサイトのアドレス」にしている場合のみ）",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "D",
+        "text": "【ア】：コメントの投稿者\n【イ】：「ユーザー選択」フィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 28,
+    "category": "スペース",
+    "content": "「スレッドアクション」の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "スレッドのコメントやURLを、指定したアプリのレコードにコピーできる機能である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "B",
+        "text": "スレッドのコメントの内容をコピー先に指定できるフィールドは、文字列（1行）と文字列（複数行）である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "C",
+        "text": "kintoneシステム管理者は、スレッドアクションの管理画面から、作成済みのすべてのアクションを確認、設定変更、削除できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040701.html",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "D",
+        "text": "ゲストスペースでも、スレッドアクションを使用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040710.html",
+        "textReference": "4-2-2 スレッド"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 29,
+    "category": "スペース",
+    "content": "ゲストスペースの追加に関する説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "cybozu.com共通管理で、ゲストスペース機能を有効にする必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040648.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "B",
+        "text": "kintoneのシステム管理で、スペース機能とゲストスペース機能を有効にする必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040648.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "C",
+        "text": "kintoneのポータルで、「スペース」の「＋」から、「ゲストスペースを作成」をクリックし、ゲストスペースを追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040648.html",
+        "textReference": "4-3-2 ゲストスペースの追加"
+      },
+      {
+        "label": "D",
+        "text": "kintoneのポータルで、右上の「…」から、「ゲストスペースを作成」をクリックし、ゲストスペースを追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040648.html",
+        "textReference": "4-3-2 ゲストスペースの追加"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 30,
+    "category": "スペース",
+    "content": "スペースの参加／退会に関する説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1つのスレッドのみ使用するスペースでは、スペースの参加者であれば誰でも、スペース内の画面からスペースの参加者メンバーが確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040701.html",
+        "textReference": "4-2-4 ピープル"
+      },
+      {
+        "label": "B",
+        "text": "スペースに参加する前にユーザー自身でフォローを解除したことがあるスレッドは、スペースに参加後、ユーザーが手動でフォローする必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040701.html",
+        "textReference": "4-1-4 スペースへの参加と退会"
+      },
+      {
+        "label": "C",
+        "text": "スペースが公開スペースの場合、スペースを退会すると、ユーザー自身が手動でフォローしたことのあるスレッドは自動でフォローが解除される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040701.html",
+        "textReference": "4-1-4 スペースへの参加と退会"
+      },
+      {
+        "label": "D",
+        "text": "ユーザーが所属する組織／グループがメンバーとしてスペースに参加している場合でも、ユーザーごとの退会ができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040701.html",
+        "textReference": "4-1-4 スペースへの参加と退会"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 31,
+    "category": "管理者設定",
+    "content": "cybozu.com共通管理で「組織の事前設定」を行う際の注意点として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "事前設定の対象となるデータは、組織、役職、ユーザーの3種類である。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020185.html",
+        "textReference": "5-1-8 組織の事前設定"
+      },
+      {
+        "label": "B",
+        "text": "変更予定のデータをCSVファイルで読み込んで、一括更新できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020185.html",
+        "textReference": "5-1-8 組織の事前設定"
+      },
+      {
+        "label": "C",
+        "text": "事前設定で追加する組織に、新規ユーザーを追加できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020185.html",
+        "textReference": "5-1-8 組織の事前設定"
+      },
+      {
+        "label": "D",
+        "text": "事前設定では、ユーザーを削除できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020185.html",
+        "textReference": "5-1-8 組織の事前設定"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 32,
+    "category": "管理者設定",
+    "content": "kintoneシステム管理の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ゲストスペースを作成できるユーザーを追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04046.html",
+        "textReference": "5-3-5 権限の管理"
+      },
+      {
+        "label": "B",
+        "text": "アプリテンプレートを作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04046.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "C",
+        "text": "アップデートオプションの設定で、開発中の新機能の利用設定ができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04046.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "2要素認証を使わないログインを禁止できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020470.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 33,
+    "category": "管理者設定",
+    "content": "cybozu.com共通管理で、無料で設定できないセキュリティ機能を1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Basic認証",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02038.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "B",
+        "text": "2要素認証",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02038.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "C",
+        "text": "セキュアアクセス",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02038.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "D",
+        "text": "IPアドレス制限",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02038.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 34,
+    "category": "管理者設定",
+    "content": "監査ログについて、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "監査ログの保存期間を設定することができる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020104.html",
+        "textReference": "5-2-2 監査ログ"
+      },
+      {
+        "label": "B",
+        "text": "ファイル読み込みに対し、「読み込み完了時」のログのみが記録される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04055.html",
+        "textReference": "5-2-2 監査ログ"
+      },
+      {
+        "label": "C",
+        "text": "「cybozu.com共通管理」から閲覧とダウンロードができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04054.html",
+        "textReference": "5-2-2 監査ログ"
+      },
+      {
+        "label": "D",
+        "text": "監査ログの保存期間は、6週間から10年間の間で指定できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020104.html",
+        "textReference": "5-2-2 監査ログ"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 35,
+    "category": "管理者設定",
+    "content": "cybozu.com共通管理者ができないことを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "監査ログの閲覧やダウンロード",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04058.html",
+        "textReference": "5-2-2 監査ログ"
+      },
+      {
+        "label": "B",
+        "text": "削除したユーザーの復旧",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04058.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "Webhookの送信を禁止",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040793.html#set_webhook_disabled_webhook_20",
+        "textReference": "5-2-3 外部連携"
+      },
+      {
+        "label": "D",
+        "text": "ユーザーや組織の追加、削除",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04058.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 36,
+    "category": "管理者設定",
+    "content": "「cybozu.com共通管理」→「グループ（ロール）」の説明として誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "動的グループでは、誕生日などの条件を指定してグループを構成することができる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020179.html#list_group_feature_2020",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "B",
+        "text": "動的グループの所属ユーザーは、ユーザーごとに追加や削除ができる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020179.html#list_group_feature_2020",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "静的グループの所属ユーザーは、ユーザーに設定する役職や所属する組織に応じて変わる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020179.html#list_group_feature_2010",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "D",
+        "text": "静的グループに所属するユーザーは、CSVファイルを使用して一括登録できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020148.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      }
+    ],
+    "correctAnswer": "BC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 37,
+    "category": "管理者設定",
+    "content": "組織の設定に関する説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ユーザーが複数の組織に所属する場合、プロフィールなどで優先的に表示する組織を指定することができる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020238.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "B",
+        "text": "組織を登録すると、アクセス権や通知先の設定を、組織単位でできるようになる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020161.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "組織の管理者は、すべての組織とその子組織に対して、組織の管理者を追加できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02010.html#list_administrator_uma_20",
+        "textReference": "5-1-3 組織の設定"
+      },
+      {
+        "label": "D",
+        "text": "組織の管理者は、組織の事前設定ができる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02010.html",
+        "textReference": "5-1-3 組織の設定"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 38,
+    "category": "管理者設定",
+    "content": "「kintoneシステム管理」→「アプリ管理」で確認できる内容として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "作成できるアプリ数の上限",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04012.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "B",
+        "text": "アプリの監査ログ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04012.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "C",
+        "text": "1日のAPIを利用したリクエスト数",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04012.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "D",
+        "text": "アプリの所属スペース",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04012.html",
+        "textReference": "5-3-2 アプリの管理"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 39,
+    "category": "その他",
+    "content": "kintoneの各コースの説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリ数は、ライトコースでは上限があるが、スタンダードコースは無制限で作成できる。",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "B",
+        "text": "スタンダードコースでは、JavaScriptやCSSファイルを利用したカスタマイズを行うことができる。",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "C",
+        "text": "ライトコース、スタンダードコースともに、メール・電話によるサポートを受けることができる。",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "D",
+        "text": "1つの環境で、ユーザーごとに契約コースを分けることができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040419.html",
+        "textReference": "6-7 kintoneの契約内容"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 40,
+    "category": "その他",
+    "content": "APIを使ったシステム連携の説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kintoneで蓄積したデータをほかのシステムでも利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040471.html",
+        "textReference": "3-5-3 APIトークン"
+      },
+      {
+        "label": "B",
+        "text": "ほかのプログラムから、データの登録や更新、削除ができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040471.html",
+        "textReference": "3-5-3 APIトークン"
+      },
+      {
+        "label": "C",
+        "text": "契約コースにかかわらずAPIを利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040471.html",
+        "textReference": "6-7-0 契約"
+      },
+      {
+        "label": "D",
+        "text": "ほかのシステムのデータをkintoneでも利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040471.html",
+        "textReference": "3-5-3 APIトークン"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 41,
+    "category": "その他",
+    "content": "ピープルの説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ピープルに投稿後、自分以外のすべてのユーザーが通知を受け取る。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040679.html",
+        "textReference": "6-5-2 ピープル"
+      },
+      {
+        "label": "B",
+        "text": "ほかのユーザーのピープルにはコメントを投稿できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040679.html",
+        "textReference": "6-5-2 ピープル"
+      },
+      {
+        "label": "C",
+        "text": "ピープル機能の利用を中止したい場合は、cybozu.com共通管理で機能を無効にできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040679.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "個人メッセージは、送信者と受信者以外には非公開である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040651.html",
+        "textReference": "6-5-2 ピープル"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 42,
+    "category": "その他",
+    "content": "「お気に入り」に登録できないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04093.html",
+        "textReference": "6-2-1 お気に入り"
+      },
+      {
+        "label": "B",
+        "text": "ピープル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04093.html",
+        "textReference": "6-2-1 お気に入り"
+      },
+      {
+        "label": "C",
+        "text": "スペース",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04093.html",
+        "textReference": "6-2-1 お気に入り"
+      },
+      {
+        "label": "D",
+        "text": "外部WebページのURL",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04093.html",
+        "textReference": "6-2-1 お気に入り"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 43,
+    "category": "その他",
+    "content": "kintoneのディスク容量に関する説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ディスク容量は全ユーザーで利用できる総容量である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040276.html#disk_data_confirm_storage_capacity_10",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "B",
+        "text": "cybozu.com共通管理者は、ディスク使用量を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040276.html#disk_data_confirm_storage_capacity_10",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "C",
+        "text": "有料のゲストユーザーを契約すると、ディスク容量が増える。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040276.html#disk_data_confirm_storage_capacity_10",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "D",
+        "text": "ディスク増設オプションを購入すると、ドメイン全体で利用できるディスク容量を5GB単位で追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040278.html#disk_data_exceed_storage_user_10",
+        "textReference": "6-1-3 お知らせ掲示板"
+      }
+    ],
+    "correctAnswer": "CD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 44,
+    "category": "その他",
+    "content": "自分宛の通知が送信されるケースとして、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "自分がフォローしているピープルに、ほかのユーザーがコメントを書き込んだとき。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040674.html",
+        "textReference": "6-4-2 「自分宛」の通知と通常の通知の違い"
+      },
+      {
+        "label": "B",
+        "text": "自分が登録したレコードに、更新やコメントの書き込みがあったとき。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040674.html",
+        "textReference": "6-4-2 「自分宛」の通知と通常の通知の違い"
+      },
+      {
+        "label": "C",
+        "text": "アプリの条件通知でレコード編集の通知先となっている組織に自分が含まれていて、レコードが更新されたとき。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040674.html",
+        "textReference": "6-4-2 「自分宛」の通知と通常の通知の違い"
+      },
+      {
+        "label": "D",
+        "text": "プロセス管理機能が有効なアプリで、自分が作業者として選択されたとき。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040674.html",
+        "textReference": "6-4-2 「自分宛」の通知と通常の通知の違い"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 45,
+    "category": "その他",
+    "content": "モバイル版（スマートフォン向けの表示）でkintoneを利用する際、できない操作をすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリの作成および設定",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html#mobile_access_smartphone_30",
+        "textReference": "6-8-4 モバイル版でできないこと"
+      },
+      {
+        "label": "B",
+        "text": "スペースとスレッドの作成",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html#mobile_access_smartphone_30",
+        "textReference": "6-8-4 モバイル版でできないこと"
+      },
+      {
+        "label": "C",
+        "text": "ポータルのお知らせの編集",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html#mobile_access_smartphone_30",
+        "textReference": "6-8-4 モバイル版でできないこと"
+      },
+      {
+        "label": "D",
+        "text": "レコードの作成および編集",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html#mobile_access_smartphone_30",
+        "textReference": "6-8-3 モバイル版の画面"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result1.csv"
+  },
+  {
+    "id": 46,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「計算」フィールドの計算式で参照できないフィールドの種類をすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ドロップダウン",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040498.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "関連レコード一覧",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040498.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "チェックボックス",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040498.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "ラベル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040498.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 47,
+    "category": "アプリ",
+    "content": "アプリのコメント機能の説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリのコメント機能は無効に設定することができない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "3-7-4 高度な設定"
+      },
+      {
+        "label": "B",
+        "text": "コメントの宛先を指定した場合は、アプリの通知の設定にかかわらず、宛先のユーザーに「自分宛」として通知される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "1-3-2 コメントの宛先指定"
+      },
+      {
+        "label": "C",
+        "text": "返信機能（全員に返信機能を含む）で宛先に指定できる対象は「ユーザー」のみである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "1-3-2 コメントの宛先指定"
+      },
+      {
+        "label": "D",
+        "text": "一度書き込んだコメントであっても、あとから編集することができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "1-3-1 レコードのコメントの表示"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 48,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「時刻」フィールドの説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリごとに、時刻の表記を12時間表記、または24時間表記に切り替えられる。\n初期設定では、12時間表記が設定されている。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040540.html",
+        "textReference": "2-2-6 日付と時刻"
+      },
+      {
+        "label": "B",
+        "text": "時刻のドロップダウンに、特定の範囲の時刻のみを指定して表示することができる。\n（例：会社の始業時刻から終業時刻のみを表示する等）",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040540.html",
+        "textReference": "2-2-6 日付と時刻"
+      },
+      {
+        "label": "C",
+        "text": "入力した時刻は、ユーザーのタイムゾーンにかかわらず、すべてのユーザーで同じ時刻が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040540.html",
+        "textReference": "2-2-6 日付と時刻"
+      },
+      {
+        "label": "D",
+        "text": "「時刻」フィールドをクリックしたときに表示されるドロップダウンリストの時刻表記は、15分単位で選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040540.html",
+        "textReference": "2-2-6 日付と時刻"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 49,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「数値」フィールドの説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "数値フィールドに入力した値は、kintone全体の検索や、アプリ内検索、スペース内検索の対象にはならない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040534.html",
+        "textReference": "6-3-1 kintone全体を検索する"
+      },
+      {
+        "label": "B",
+        "text": "小数点以下の表示桁数を指定して、指定した桁数を超えた小数部を四捨五入して表示できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040534.html",
+        "textReference": "2-2-4 数値と計算"
+      },
+      {
+        "label": "C",
+        "text": "「数値」フィールドで指定した単位記号は、変更履歴には表示されない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040534.html",
+        "textReference": "2-2-4 数値と計算"
+      },
+      {
+        "label": "D",
+        "text": "入力可能な値の範囲について、最小値と最大値のどちらか一方しか指定できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040534.html",
+        "textReference": "2-2-4 数値と計算"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 50,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「設定」タブで、設定や実行ができることをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリの所属するスペースを変更",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040470.html",
+        "textReference": "3-8-3 アプリの所属するスペースを変更"
+      },
+      {
+        "label": "B",
+        "text": "グラフの設定",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040470.html",
+        "textReference": "1-5-3 グラフ設定と定期レポート"
+      },
+      {
+        "label": "C",
+        "text": "フィールドの条件通知",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040470.html",
+        "textReference": "3-4-3 レコードの条件通知"
+      },
+      {
+        "label": "D",
+        "text": "プロセス管理",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040470.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 51,
+    "category": "アプリ",
+    "content": "CONTAINS関数を使って、宿泊食事フィールドの夕食または朝食のいずれかにチェックがあれば「食事あり」、そうでなければ「食事なし」と表示するための計算式として、適切なものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "IF(CONTAINS(宿泊食事,\"夕食\"OR\"朝食\"), \"食事あり\", \"食事なし\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040506.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "IF(CONTAINS(宿泊食事,OR(\"夕食\",\"朝食\")), \"食事あり\", \"食事なし\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040506.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "IF(OR(CONTAINS(宿泊食事, \"夕食\"),CONTAINS(宿泊食事, \"朝食\")), \"食事あり\", \"食事なし\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040506.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "IF(AND(CONTAINS(宿泊食事, \"夕食\"),CONTAINS(宿泊食事, \"朝食\")), \"食事あり\", \"食事なし\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040506.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 52,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、存在するフィールドをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "メンバー選択",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "B",
+        "text": "グループ選択",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "C",
+        "text": "組織選択",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "D",
+        "text": "チーム選択",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      }
+    ],
+    "correctAnswer": "BC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 53,
+    "category": "アプリ",
+    "content": "レコードのアクセス権の設定の説明として、次の【ア】および【イ】に当てはまる単語の組み合わせで、正しいものを1つ選びなさい。\n\n特定の【ア】が指定した値になった場合、一部のユーザーだけがその【イ】を閲覧できるように制限したい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "【ア】：フィールド\n【イ】：レコード",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040595.html",
+        "textReference": "3-6-3 レコードのアクセス権"
+      },
+      {
+        "label": "B",
+        "text": "【ア】：フィールド\n【イ】：フィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040595.html",
+        "textReference": "3-6-3 レコードのアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "【ア】：レコード\n【イ】：フィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040595.html",
+        "textReference": "3-6-3 レコードのアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "【ア】：レコード\n【イ】：レコード",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040595.html",
+        "textReference": "3-6-3 レコードのアクセス権"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 54,
+    "category": "アプリ",
+    "content": "レコードの変更履歴の説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レコード編集時に何も変更せずに保存した場合、変更履歴のバージョン番号が連番にならず、欠番が発生することがある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040461.html",
+        "textReference": "1-3-3 変更履歴の表示"
+      },
+      {
+        "label": "B",
+        "text": "レコードの変更履歴の記録機能は、無効に設定できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040461.html",
+        "textReference": "1-3-4 変更履歴の無効"
+      },
+      {
+        "label": "C",
+        "text": "表示されるのはあくまで変更履歴のみであり、レコードの作成者・作成日時を確認できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040461.html",
+        "textReference": "1-3-3 変更履歴の表示"
+      },
+      {
+        "label": "D",
+        "text": "プロセス管理のステータスについて、変更履歴から前のバージョンに戻すことができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040461.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 55,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、選択肢の中から2つ以上選ばせたいときに使用するフィールドとして、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ラジオボタン",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-5 選択肢"
+      },
+      {
+        "label": "B",
+        "text": "ユーザー選択",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "C",
+        "text": "チェックボックス",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-5 選択肢"
+      },
+      {
+        "label": "D",
+        "text": "ドロップダウン",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040554.html",
+        "textReference": "2-2-5 選択肢"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 56,
+    "category": "アプリ",
+    "content": "アプリテンプレートを使って、別ドメインのkintoneにアプリを移行する際の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリの作成権限があれば、アプリ作成時に「テンプレートファイルを読み込んで作成」ボタンが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040493.html",
+        "textReference": "1-1-8 方法5：テンプレートファイルからアプリを作成する"
+      },
+      {
+        "label": "B",
+        "text": "アプリ、レコード、およびフィールドのアクセス権は移行できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040493.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "C",
+        "text": "Administratorユーザーを宛先にした通知の設定は移行できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040493.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "D",
+        "text": "kintoneシステム管理者がアプリの管理権限を持つ場合、アプリをテンプレート化できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040493.html",
+        "textReference": "5-3-2 アプリの管理"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 57,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「ユーザー選択」フィールドの説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "初期値に「ログインユーザー」を指定すると、新規でレコードを追加するときに、ログインしているユーザー（レコード作成者）が入力される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040543.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "B",
+        "text": "「選択肢を指定する」を設定しない場合、「ユーザー選択」フィールドにユーザー名を入力して、一致するユーザーを選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040543.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "C",
+        "text": "選択できる最大人数を指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040543.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      },
+      {
+        "label": "D",
+        "text": "「選択肢を指定する」を有効にして、選択肢にユーザーを指定すると、レコードの追加や編集をする際に、指定したユーザーのみが選択肢に表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040543.html",
+        "textReference": "2-2-9 ユーザーや組織の選択"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 58,
+    "category": "アプリ",
+    "content": "石川さんと田中さんが同じレコードの編集画面を同時に表示し、レコードの編集をしている。\nkintoneの仕様として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "石川さんがレコードの「保存」をクリックしたあとに、田中さんがレコードの「保存」をクリックすると、田中さんの画面に再読み込みを促すエラーメッセージが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040719.html",
+        "textReference": "1-2-3 レコードの編集"
+      },
+      {
+        "label": "B",
+        "text": "石川さんがレコードの「保存」をクリックすると、田中さんの画面に再読み込みを促すエラーメッセージが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040719.html",
+        "textReference": "1-2-3 レコードの編集"
+      },
+      {
+        "label": "C",
+        "text": "石川さんがレコードの「保存」をクリックすると、石川さんの画面に再読み込みを促すエラーメッセージが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040719.html",
+        "textReference": "1-2-3 レコードの編集"
+      },
+      {
+        "label": "D",
+        "text": "石川さんがレコードの「保存」をクリックしたあとに、田中さんがレコードの「保存」をクリックすると、石川さんの編集内容は残らず田中さんの編集内容のみが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040719.html",
+        "textReference": "1-2-3 レコードの編集"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 59,
+    "category": "アプリ",
+    "content": "テンプレートファイルからアプリを作成する際の説明として、適切でないものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "テンプレートファイルに複数のアプリが含まれている場合、1度に複数のアプリを作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040627.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "B",
+        "text": "最大1MBまでのテンプレートファイルを読み込める。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040627.html",
+        "textReference": "1-1-8 方法5：テンプレートファイルからアプリを作成する"
+      },
+      {
+        "label": "C",
+        "text": "他のドメインで利用しているkintoneから書き出したテンプレートファイルを読み込める。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040627.html",
+        "textReference": "1-1-8 方法5：テンプレートファイルからアプリを作成する"
+      },
+      {
+        "label": "D",
+        "text": "テンプレートファイルを読み込んでアプリを作成するには、アプリの作成権限が必要である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040627.html",
+        "textReference": "1-1-8 方法5：テンプレートファイルからアプリを作成する"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 60,
+    "category": "アプリ",
+    "content": "一覧の作成について、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "一覧を作成する際、表示形式は、表形式、カレンダー形式、グラフ形式の３種類から選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040614.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "B",
+        "text": "カレンダー形式の一覧では、フィールドに入力されているデータを一覧画面から編集できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040609.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "C",
+        "text": "一覧を複数作成した場合は、表示順を並べ替えたり、デフォルトで表示される一覧を変更したりできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040610.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "D",
+        "text": "一覧を作成、変更、削除するには、そのアプリの管理権限が必要である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040609.html",
+        "textReference": "1-4-2 一覧の作成"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 61,
+    "category": "アプリ",
+    "content": "レコードをファイルから読み込む際の注意点として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「計算」フィールドは、フィールドの設定に関わらず、ファイルからデータを読み込めない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "B",
+        "text": "「ルックアップ」フィールドは、フィールドの設定に関わらず、ファイルからデータを読み込めない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "C",
+        "text": "登録済みのレコードを更新する場合、一括更新のキーとなるフィールドと値を更新するフィールドのみ「ファイルの列」を指定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "D",
+        "text": "拡張子が「.txt」のファイルから、レコードを読み込めない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 62,
+    "category": "アプリ",
+    "content": "数値や計算結果の端数処理をする方法として、正しい説明を1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「計算」フィールドの設定画面で、計算式にROUND関数を設定すると、数値を四捨五入して指定の桁数まで求めることができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "小数点以下の数値を四捨五入した値をアプリに表示したい場合は、「計算」フィールドの設定画面で「小数点以下の表示桁数」を「0」に設定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-2-4 数値と計算"
+      },
+      {
+        "label": "C",
+        "text": "「数値」フィールドで「小数点以下の表示桁数」の設定を変更すると、レコードの数値自体が変更される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-2-4 数値と計算"
+      },
+      {
+        "label": "D",
+        "text": "「高度な設定」の内容よりも、ROUND関数や「小数点以下の表示桁数」の設定が優先される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "3-7-4 高度な設定"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 63,
+    "category": "アプリ",
+    "content": "アプリのプロセス管理の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kintoneのポータルには、自分が作業者に指定されているレコードの件数が、アプリごとに表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040576.html",
+        "textReference": "3-3-1 プロセス管理とは"
+      },
+      {
+        "label": "B",
+        "text": "現在のステータスに関わらず、アクションのボタンは常に表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040576.html",
+        "textReference": "3-3-1 プロセス管理とは"
+      },
+      {
+        "label": "C",
+        "text": "アクションは、レコードを別のステータスに変更するための操作で、ステータスごとに設定する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040576.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "D",
+        "text": "複数のユーザーで作業するタスクや、申請の承認をアプリで管理して、ワークフローのように使える。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040576.html",
+        "textReference": "3-3-1 プロセス管理とは"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 64,
+    "category": "アプリ",
+    "content": "アプリの削除の説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリの削除には、cybozu.com共通管理者の権限が必要である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040633.html",
+        "textReference": "3-8-4 アプリの削除"
+      },
+      {
+        "label": "B",
+        "text": "アプリを誤って削除してしまった場合、30日以内であればcybozu.com共通管理者がアプリを復旧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040633.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "C",
+        "text": "アプリを削除しても、アプリ内のすべてのデータを利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040633.html",
+        "textReference": "3-8-4 アプリの削除"
+      },
+      {
+        "label": "D",
+        "text": "削除対象のアプリをほかのアプリが参照している場合、削除対象のアプリのみを、単独で削除できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040633.html",
+        "textReference": "3-8-4 アプリの削除"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 65,
+    "category": "アプリ",
+    "content": "アプリの管理権限を持たない利用者が可能なグラフの操作として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "集計の作成",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040587.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "B",
+        "text": "グラフの表示",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040587.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "C",
+        "text": "集計をブックマークとして保存",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040587.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      },
+      {
+        "label": "D",
+        "text": "集計をグラフとして保存",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040587.html",
+        "textReference": "1-5-2 一覧からのグラフの作成"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 66,
+    "category": "アプリ",
+    "content": "文字を入力するためのフィールドの説明として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「文字列（複数行）」で改行して入力した文字列は、ファイルへ書き出したときにも改行された状態で出力される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040538.html",
+        "textReference": "2-2-3 文字"
+      },
+      {
+        "label": "B",
+        "text": "「リッチエディター」を配置すると、文字色・背景色・文字サイズの変更が可能な入力欄を作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040537.html",
+        "textReference": "2-2-3 文字"
+      },
+      {
+        "label": "C",
+        "text": "「文字列（複数行）」は、最小文字数と最大文字数のどちらか一方、または両方を指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040538.html",
+        "textReference": "2-2-3 文字"
+      },
+      {
+        "label": "D",
+        "text": "「文字列（1行）」は、自動計算機能を使用できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040539.html",
+        "textReference": "2-2-3 文字"
+      }
+    ],
+    "correctAnswer": "CD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 67,
+    "category": "アプリ",
+    "content": "テーブルの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "一度テーブル化して保存したフィールドは、テーブル外や別のテーブルには移動できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      },
+      {
+        "label": "B",
+        "text": "テーブルを設定すると、データ入力中に必要に応じて入力行を追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-1 テーブルとは"
+      },
+      {
+        "label": "C",
+        "text": "テーブルは、すでにあるテーブルやグループフィールド内には配置できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      },
+      {
+        "label": "D",
+        "text": "一度テーブル化して保存すると、テーブル内のフィールドの並び順を変更できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040529.html",
+        "textReference": "2-3-2 テーブルを設定する"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 68,
+    "category": "アプリ",
+    "content": "IF関数を使って、実技が80点以上で、かつ小論文が70点以上であれば”合格”、そうでなければ”不合格”と表示される計算式について、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "IF(AND(実技>=80,小論文>=70),\"合格\",\"不合格\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "IF((実技>=80) AND (小論文>=70),\"合格\",\"不合格\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "AND(IF(実技>=80,小論文>=70),\"合格\",\"不合格\")",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "AND((IF(実技>=80,\"合格\",\"不合格\"),(IF(小論文>=70,\"合格\",\"不合格\"))",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040505.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 69,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「設定」タブ→「アイコンと説明」、または「デザインテーマ」の説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "モバイル版の画面でも「デザインテーマ」の設定で、フォームやレコード一覧の配色を変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040476.html",
+        "textReference": "3-2-2 アプリのデザインテーマの変更"
+      },
+      {
+        "label": "B",
+        "text": "「アプリのアイコン」は、あらかじめkintoneに用意されているアイコンから選択する方法と、任意の画像をアップロードする方法がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040475.html",
+        "textReference": "3-2-1 アイコンと説明"
+      },
+      {
+        "label": "C",
+        "text": "「アプリの説明」に入力できる文字数の上限は、5,000文字である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040475.html",
+        "textReference": "3-2-1 アイコンと説明"
+      },
+      {
+        "label": "D",
+        "text": "「アプリの説明」は、書式設定を使って文字を装飾できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040475.html",
+        "textReference": "3-2-1 アイコンと説明"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 70,
+    "category": "アプリ",
+    "content": "アクセス権を設定できるフィールドとして、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "グループ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040593.html",
+        "textReference": "3-6-4 フィールドのアクセス権"
+      },
+      {
+        "label": "B",
+        "text": "テーブル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040593.html",
+        "textReference": "3-6-4 フィールドのアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "関連レコード一覧",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040593.html",
+        "textReference": "3-6-4 フィールドのアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "ルックアップ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040593.html",
+        "textReference": "3-6-4 フィールドのアクセス権"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 71,
+    "category": "スペース",
+    "content": "スペースの説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "スペースのメンバーに組織／グループを追加した場合、ユーザーごとの退会ができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040703.html",
+        "textReference": "4-1-4 スペースへの参加と退会"
+      },
+      {
+        "label": "B",
+        "text": "ゲストユーザーの一覧は、CSV形式でダウンロードできない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040822.html",
+        "textReference": "5-3-4 ゲストユーザーの管理"
+      },
+      {
+        "label": "C",
+        "text": "cybozu.com共通管理者は、14日以内であれば削除してしまったスペースを復旧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04080.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "スペースの一覧で、各アプリがどのスペースに所属しているかを確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04073.html#space_admin_manage_spaces_30",
+        "textReference": "5-3-3 スペースの管理"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 72,
+    "category": "スペース",
+    "content": "「関連リンク」欄の説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ゲストスペースでも関連リンクを利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040708.html",
+        "textReference": "4-3-2 ゲストスペースの追加"
+      },
+      {
+        "label": "B",
+        "text": "スペースの「関連リンク」の並び順を変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040708.html",
+        "textReference": "4-2-5 関連リンク"
+      },
+      {
+        "label": "C",
+        "text": "「関連リンク」欄に関連リンクを追加すると、スペースの利用者が、リンク先のアプリやスペースに素早くアクセスできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040708.html",
+        "textReference": "4-2-5 関連リンク"
+      },
+      {
+        "label": "D",
+        "text": "関連リンクを表示するには、ポータル画面右下の「関連リンク」欄にある追加ボタンをクリックする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040708.html",
+        "textReference": "4-2-5 関連リンク"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 73,
+    "category": "スペース",
+    "content": "スペースのポータルに表示される「お知らせ掲示板」の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「お知らせ掲示板」は、ユーザーごとにカスタマイズできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040697.html",
+        "textReference": "4-2-1 お知らせ"
+      },
+      {
+        "label": "B",
+        "text": "スペースの管理者は、「お知らせ掲示板」の内容を編集できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040697.html",
+        "textReference": "4-2-1 お知らせ"
+      },
+      {
+        "label": "C",
+        "text": "「お知らせ掲示板」を表示するには、スペースの設定で、「スペースのポータルと複数のスレッドを使用する」機能を有効にする必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040697.html",
+        "textReference": "4-2-1 お知らせ"
+      },
+      {
+        "label": "D",
+        "text": "「お知らせ掲示板」は、モバイル版のポータルに適用されない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040697.html",
+        "textReference": "6-8-3 モバイル版の画面"
+      }
+    ],
+    "correctAnswer": "BC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 74,
+    "category": "スペース",
+    "content": "参加しているスペースで、スペース参加者とスペース管理者の両者ともにできる操作として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "参加メンバーの変更",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040705.html",
+        "textReference": "4-2-6 ユーザーがスペースでできる操作"
+      },
+      {
+        "label": "B",
+        "text": "スペース本文の編集",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040705.html",
+        "textReference": "4-2-6 ユーザーがスペースでできる操作"
+      },
+      {
+        "label": "C",
+        "text": "スペース内検索",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040705.html",
+        "textReference": "4-2-6 ユーザーがスペースでできる操作"
+      },
+      {
+        "label": "D",
+        "text": "スペースの削除",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040705.html",
+        "textReference": "4-2-6 ユーザーがスペースでできる操作"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 75,
+    "category": "スペース",
+    "content": "ゲストスペースへ招待する際の説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kintoneのポータルで、右上の「…」から、「ゲストメンバーを管理」をクリックし、ゲストスペースに招待できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040649.html",
+        "textReference": "4-3-3 ゲストの招待"
+      },
+      {
+        "label": "B",
+        "text": "招待メールの送信元は、送信者自身のメールアドレスである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040649.html",
+        "textReference": "4-3-3 ゲストの招待"
+      },
+      {
+        "label": "C",
+        "text": "招待メールの有効期間は、1週間である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040649.html",
+        "textReference": "4-3-3 ゲストの招待"
+      },
+      {
+        "label": "D",
+        "text": "招待したゲストがkintoneに登録したかどうかなど、登録状況を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040649.html",
+        "textReference": "4-3-3 ゲストの招待"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 76,
+    "category": "管理者設定",
+    "content": "「組織の管理者」が管理権限を持つ組織の配下でできる操作として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "子組織の追加",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02010.html#uma__index_20",
+        "textReference": "5-1-3 組織の設定"
+      },
+      {
+        "label": "B",
+        "text": "組織の所属ユーザーの変更",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02010.html#uma__index_20",
+        "textReference": "5-1-3 組織の設定"
+      },
+      {
+        "label": "C",
+        "text": "組織の削除",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02010.html#uma__index_20",
+        "textReference": "5-1-3 組織の設定"
+      },
+      {
+        "label": "D",
+        "text": "組織の事前設定",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02010.html#uma__index_20",
+        "textReference": "5-1-3 組織の設定"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 77,
+    "category": "管理者設定",
+    "content": "cybozu.comの管理者の種類として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "監査ログの閲覧や、パスワードポリシーを設定する「サイボウズドットコム ストアの管理者」",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04059.html",
+        "textReference": "5-4-1 サイボウズドットコムストア"
+      },
+      {
+        "label": "B",
+        "text": "ユーザーの追加や、セキュリティの設定を行う「cybozu.com共通管理者」",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04059.html",
+        "textReference": "5-1-1 cybozu.com共通管理"
+      },
+      {
+        "label": "C",
+        "text": "ドメインを作成した際に自動的に登録されるが、削除できない「Administrator」",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04059.html",
+        "textReference": "5-1-7 管理者の設定"
+      },
+      {
+        "label": "D",
+        "text": "特定の組織配下において、ユーザーと組織を管理する権限を付与された「組織の管理者」",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04059.html",
+        "textReference": "5-1-3 組織の設定"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 78,
+    "category": "管理者設定",
+    "content": "cybozu.com共通管理の設定で、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ログインのセキュリティ設定では、SAML認証を有効化できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/0207.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "B",
+        "text": "外部サービスとの連携を有効化できるが、ユーザーごとの連携利用設定はできない。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/0207.html",
+        "textReference": "5-2-3 外部連携"
+      },
+      {
+        "label": "C",
+        "text": "ユーザー管理のプロビジョニングで、Identity Provider（IdP）を用いて、cybozu.comのユーザー情報を管理できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/0207.html",
+        "textReference": "5-2-3 外部連携"
+      },
+      {
+        "label": "D",
+        "text": "組織間のアクセスを禁止すると、所属する最上位組織が異なるユーザー間では、互いのプロフィールを閲覧できない。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020164.html",
+        "textReference": "5-1-9 組織間のアクセス権"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 79,
+    "category": "管理者設定",
+    "content": "スペース管理において、kintoneシステム管理者ができることとして、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "参加していないスペースに管理者として参加する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04073.html#space_admin_manage_spaces_30",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "B",
+        "text": "ゲストスペースを含むすべてのスペースのライセンス使用状況を閲覧する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04073.html#space_admin_manage_spaces_20",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "C",
+        "text": "スペースの一覧からスペースごとの管理者数や設定の最終更新日時を確認する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04073.html#space_admin_manage_spaces_30",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "D",
+        "text": "スペースの一覧をCSV形式でダウンロードする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04073.html#space_admin_manage_spaces_40",
+        "textReference": "5-3-3 スペースの管理"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 80,
+    "category": "管理者設定",
+    "content": "ユーザーの追加に関する説明で、適切でないものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "CSVファイルを読み込んでユーザーを一括登録できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040138.html",
+        "textReference": "5-1-6 一括操作"
+      },
+      {
+        "label": "B",
+        "text": "ユーザーを追加するときは、表示名とログイン名の入力が必須である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040138.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "追加するユーザーの所属組織を先に設定しておく必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040138.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "D",
+        "text": "CSVファイルを使って新規ユーザーを一括登録する際のパスワードに、「*」（アスタリスク）を使用すると、有効なパスワードが設定されない。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020155.html",
+        "textReference": "5-1-6 一括操作"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 81,
+    "category": "管理者設定",
+    "content": "ライトコースで、kintoneをより安全に使える対策を実施する際、【ア】および【イ】に当てはまる単語の組み合わせとして、正しいものを1つ選びなさい。\n\n接続できる端末を制限する【ア】オプションと、\n「ユーザーだけが所有しているモバイル端末」を用いる【イ】が用意されている。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "【ア】：IPアドレス制限\n【イ】：2要素認証",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02043.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "B",
+        "text": "【ア】：セキュアアクセス\n【イ】：2要素認証",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02043.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "C",
+        "text": "【ア】：IPアドレス制限\n【イ】：二段階認証",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02043.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "D",
+        "text": "【ア】：セキュアアクセス\n【イ】：二段階認証",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02043.html",
+        "textReference": "5-2-1 セキュリティの設定"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 82,
+    "category": "管理者設定",
+    "content": "kintoneシステム管理の「アップデートオプション」の説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "月例チャネルでは、月に一度の定期メンテナンス時を基本のタイミングとして、新機能が適用される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04050.html#new_feature_new_feature_overview_1020",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "B",
+        "text": "月例チャネルを選択している場合、「常に無効化をデフォルトにしておく（アップデートを延期する）」オプションを利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04050.html#new_feature_new_feature_overview_1020",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "C",
+        "text": "最新チャネルでは、月例チャネルで提供中の新機能に加え、より多くの新機能をより早い時期から利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04050.html#new_feature_new_feature_overview_1010",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "最新チャネルでは、「リリース予定の新機能の先行利用」と「開発中の新機能」の対象機能について、すべて自動的に有効化される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04050.html#new_feature_new_feature_overview_1010",
+        "textReference": "5-3-7 その他の管理"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 83,
+    "category": "管理者設定",
+    "content": "グループ（ロール）で所属ユーザーの設定を行う際の説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "グループが静的グループか動的グループかによって、ユーザーを追加、変更する方法は異なる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04061.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "B",
+        "text": "静的グループでは、役職や誕生日などの条件を指定してグループを構成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04061.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "ユーザーの所属グループ（ロール）をCSV形式のファイルに書き出すことができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04061.html",
+        "textReference": "5-1-6 一括操作"
+      },
+      {
+        "label": "D",
+        "text": "初期設定では、cybozu.com共通管理者を指す「Everyone」グループが自動で作成される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04061.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 84,
+    "category": "その他",
+    "content": "ゲストユーザーライセンスを契約するときの最低ユーザー数として、【ア】および【イ】に当てはまる組み合わせで、正しいものを1つ選びなさい。\n\nライトコース：【ア】\nスタンダードコース：【イ】",
+    "choices": [
+      {
+        "label": "A",
+        "text": "【ア】：1ユーザー\n【イ】：1ユーザー",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "B",
+        "text": "【ア】：1ユーザー\n【イ】：5ユーザー",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "C",
+        "text": "【ア】：3ユーザー\n【イ】：5ユーザー",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "D",
+        "text": "【ア】：5ユーザー\n【イ】：5ユーザー",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "6-7 kintoneの契約内容"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 85,
+    "category": "その他",
+    "content": "「ポータルの設定」画面で、kintoneのシステム管理者が変更できる項目について、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ユーザーごとに表示するポータルを変更する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04069.html#portal_customize_portal_30",
+        "textReference": "6-1-2 ポータルの設定"
+      },
+      {
+        "label": "B",
+        "text": "「ポータル」に表示される「処理済」の一覧を非表示にする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04069.html#portal_customize_portal_30",
+        "textReference": "6-1-2 ポータルの設定"
+      },
+      {
+        "label": "C",
+        "text": "「ポータル」に表示される「お知らせ掲示板」を非表示にする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04069.html#portal_customize_portal_30",
+        "textReference": "6-1-2 ポータルの設定"
+      },
+      {
+        "label": "D",
+        "text": "ポータルのカバー画像を変更する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04069.html#portal_customize_portal_30",
+        "textReference": "6-1-2 ポータルの設定"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 86,
+    "category": "その他",
+    "content": "プラグインを利用する際の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "プラグインを利用する際は、はじめにアプリ管理画面でプラグインを追加する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/0408.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "B",
+        "text": "プラグインごとに、アプリを指定して利用を許可できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/0408.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "C",
+        "text": "プラグインごとに、スペースを指定して利用を許可できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/0408.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "自分で作成したプラグインを利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/0408.html",
+        "textReference": "5-3-7 その他の管理"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 87,
+    "category": "その他",
+    "content": "kintoneの検索機能の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アルファベットの大文字と小文字、および全角と半角は区別して検索できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "B",
+        "text": "添付ファイルは、ファイル名のみを検索し、ファイルの内容は検索しない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "C",
+        "text": "複数のキーワードによる検索では、OR検索やNOT検索はできない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "D",
+        "text": "全体検索とは別に、特定のアプリやスペース内に範囲を限定して検索できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-2 検索範囲を限定して検索"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 88,
+    "category": "その他",
+    "content": "kintoneのディスク容量の説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "有償でディスク容量を追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040278.html#disk_data_exceed_storage_user_10",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "B",
+        "text": "ユーザーごとに、使用できるディスク容量の上限を設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040276.html#disk_data_confirm_storage_capacity_10",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "C",
+        "text": "ゲストユーザーは、ディスク容量の契約ユーザー数に含まれる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040276.html#disk_data_confirm_storage_capacity_10",
+        "textReference": "6-7 kintoneの契約内容"
+      },
+      {
+        "label": "D",
+        "text": "ディスク容量はサイボウズ Office、Garoon、kintone、メールワイズの各サービスで提供され、その合計の容量を利用環境全体で使用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040276.html#disk_data_confirm_storage_capacity_10",
+        "textReference": "6-7 kintoneの契約内容"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 89,
+    "category": "その他",
+    "content": "添付ファイルの内容が検索されるファイル形式として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Microsoft Excelファイル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040690.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "B",
+        "text": "Microsoft PowerPointファイル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040690.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "C",
+        "text": "GIFファイル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040690.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "D",
+        "text": "PDFファイル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040690.html",
+        "textReference": "6-3-3 検索の注意点"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 90,
+    "category": "その他",
+    "content": "スマートフォンでkintoneを利用する際の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "表形式、カレンダー形式、およびカスタマイズのアプリの一覧を表示できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040667.html",
+        "textReference": "6-8-3 モバイル版の画面"
+      },
+      {
+        "label": "B",
+        "text": "検索結果には、添付された文書ファイルの内容を検索した結果も表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040667.html",
+        "textReference": "6-8-3 モバイル版の画面"
+      },
+      {
+        "label": "C",
+        "text": "別の画面で作業をしている途中で通知を確認した後、戻るアイコンをタップすると、作業中の画面に戻ることができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040667.html",
+        "textReference": "6-8-3 モバイル版の画面"
+      },
+      {
+        "label": "D",
+        "text": "スマートフォン用アプリ「kintoneモバイル」は、ゲストユーザーも使用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040667.html",
+        "textReference": "4-4-3 ゲストの操作"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result2.csv"
+  },
+  {
+    "id": 91,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「ラベル」フィールドに、レコード入力時の参考情報ページへのリンクを記載したい。\n利用者の利便性を上げるため、リンクをクリックしたときに、新しいタブで表示するように設定する方法として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「アプリの設定」→「フォーム」タブで、「ラベル」フィールドにリンクを設定し、文字色を青に変更する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040531.html",
+        "textReference": "2-2-2 ラベル"
+      },
+      {
+        "label": "B",
+        "text": "「アプリの設定」→「フォーム」タブで、「ラベル」フィールドにリンクを設定し、「リンク先を新しいタブで開く」をチェックする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040531.html",
+        "textReference": "2-2-2 ラベル"
+      },
+      {
+        "label": "C",
+        "text": "「アプリ管理」を開き、「ラベル」フィールドではリンク先を新しいタブで開くように設定を行う。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040531.html",
+        "textReference": "2-2-2 ラベル"
+      },
+      {
+        "label": "D",
+        "text": "「アプリの設定」→「フォーム」タブで、「ラベル」フィールドにリンクを設定すると、リンクをクリックしたときに、必ず新しいタブで表示されるので、特に操作する必要はない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040531.html",
+        "textReference": "2-2-2 ラベル"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 92,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「文字列（複数行）」フィールドの説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "計算式を設定し、計算結果の文字列を表示するフィールドとして利用できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040495.html",
+        "textReference": "2-2-3 文字"
+      },
+      {
+        "label": "B",
+        "text": "改行した文字列は、改行した状態でファイルへ書き出しされる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040538.html",
+        "textReference": "2-2-3 文字"
+      },
+      {
+        "label": "C",
+        "text": "初期値を指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040538.html",
+        "textReference": "2-2-3 文字"
+      },
+      {
+        "label": "D",
+        "text": "最小文字数と最大文字数のどちらか一方、または両方を指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040538.html",
+        "textReference": "2-2-3 文字"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 93,
+    "category": "アプリ",
+    "content": "カテゴリー機能の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レコード一覧に表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040489.html",
+        "textReference": "3-7-1 カテゴリー"
+      },
+      {
+        "label": "B",
+        "text": "カテゴリーを有効にすると、フォームに「カテゴリー」フィールドが追加され、レコードを分類できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040489.html",
+        "textReference": "3-7-1 カテゴリー"
+      },
+      {
+        "label": "C",
+        "text": "10階層まで設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040489.html",
+        "textReference": "3-7-1 カテゴリー"
+      },
+      {
+        "label": "D",
+        "text": "「ファイルから読み込む」機能で、一括で読み込みができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040489.html",
+        "textReference": "3-7-1 カテゴリー"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 94,
+    "category": "アプリ",
+    "content": "アプリのレコード詳細画面の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "コメント機能を有効にしている場合、レコード詳細画面を開くと、常にコメント欄は開いた状態で表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "1-3-1 レコードのコメントの表示"
+      },
+      {
+        "label": "B",
+        "text": "レコード詳細画面でショートカットキーを使用することができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040319.html",
+        "textReference": "1-2-2 レコードの登録"
+      },
+      {
+        "label": "C",
+        "text": "画面右上の「次のレコードに移動する」アイコンをクリックすると、アプリ内の次のレコードを表示する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "1-2-2 レコードの登録"
+      },
+      {
+        "label": "D",
+        "text": "「レコードを再利用する」機能が有効の場合、画面右上の「レコードを再利用する」アイコンをクリックすると、すべてのフィールドの値をコピーして、新規レコードを登録する画面が開く。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040463.html",
+        "textReference": "1-2-2 レコードの登録"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 95,
+    "category": "アプリ",
+    "content": "ほかのアプリを再利用して新しく作成する場合に、作成するアプリに引き継がれる値や設定をすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ルックアップの設定",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040630.html",
+        "textReference": "1-1-9 方法6：ほかのアプリを再利用して新しく作成する（アプリのコピー）"
+      },
+      {
+        "label": "B",
+        "text": "APIトークン",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040630.html",
+        "textReference": "1-1-9 方法6：ほかのアプリを再利用して新しく作成する（アプリのコピー）"
+      },
+      {
+        "label": "C",
+        "text": "プラグインの有効／無効の状態",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040630.html",
+        "textReference": "1-1-9 方法6：ほかのアプリを再利用して新しく作成する（アプリのコピー）"
+      },
+      {
+        "label": "D",
+        "text": "アプリに登録したレコードのデータ",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040630.html",
+        "textReference": "1-1-9 方法6：ほかのアプリを再利用して新しく作成する（アプリのコピー）"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 96,
+    "category": "アプリ",
+    "content": "アプリグループの説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "スペース内アプリは「Public」に所属し、アプリグループを変更することはできない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04028.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      },
+      {
+        "label": "B",
+        "text": "「Private」に所属するアプリも、契約のコースで作成できるアプリ数の上限に含まれる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04028.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "「Private」に所属するアプリは、そのアプリの作成者だけに公開される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04028.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "「Public」と「Private」以外のアプリグループを作成できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04028.html",
+        "textReference": "5-3-2 アプリの管理"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 97,
+    "category": "アプリ",
+    "content": "レコード一覧画面で、表示するレコードを絞り込む機能について、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レコードを日付で絞り込むときの選択肢は、「今年／今月／今日」のみである。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040458.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "B",
+        "text": "レコードの表示順は指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040458.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "C",
+        "text": "テーブル内のフィールドは絞り込みの条件に指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040458.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "D",
+        "text": "絞り込んだレコード数が10万件を超えると警告が表示され、レコードが正しく絞りこまれない場合がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040458.html",
+        "textReference": "1-4-2 一覧の作成"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 98,
+    "category": "アプリ",
+    "content": "レコード一覧画面で、各フィールドの列幅を変更する際の説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ユーザー個人が設定した列幅は、ログインユーザーとWebブラウザーの組み合わせで保持される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040613.html",
+        "textReference": "1-4-3 一覧の列幅の変更"
+      },
+      {
+        "label": "B",
+        "text": "各ユーザーは、レコード一覧の各フィールドの列幅を、アプリの設定に保存できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040611.html",
+        "textReference": "1-4-3 一覧の列幅の変更"
+      },
+      {
+        "label": "C",
+        "text": "一覧の設定画面で列幅を変更する際に、列幅をpx（ピクセル）で指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040611.html",
+        "textReference": "1-4-3 一覧の列幅の変更"
+      },
+      {
+        "label": "D",
+        "text": "アプリ管理者が一覧の列幅をアプリの設定に保存した場合、各ユーザーは個別に列幅を変更できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040611.html",
+        "textReference": "1-4-3 一覧の列幅の変更"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 99,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「ルックアップ」フィールドの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "コピー元に設定したアプリの値が更新されると、自動的に「ルックアップ」フィールドの値が更新される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040547.html",
+        "textReference": "2-5-1 ルックアップとは"
+      },
+      {
+        "label": "B",
+        "text": "コピー元のフィールドには、「リンク」に設定したフィールドを指定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040526.html",
+        "textReference": "2-5-2 ルックアップを設定する"
+      },
+      {
+        "label": "C",
+        "text": "関連付けるアプリを一度選択した後にフォームを保存すると、この設定を変更できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040526.html",
+        "textReference": "2-5-2 ルックアップを設定する"
+      },
+      {
+        "label": "D",
+        "text": "コピー元のフィールドには、「テーブル」に設定したフィールドは指定できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040526.html",
+        "textReference": "2-5-2 ルックアップを設定する"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 100,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで設定できるフィールドとその説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "時刻：時刻を入力するフィールド。\n入力した時刻は、ユーザーのタイムゾーンの設定に合わせて表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-6 日付と時刻"
+      },
+      {
+        "label": "B",
+        "text": "四半期：1年のうち、四半期を入力するフィールド。\n入力した四半期は、すべてのユーザーで同じ期間が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-6 日付と時刻"
+      },
+      {
+        "label": "C",
+        "text": "日付：日付を入力するフィールド。カレンダーから日付を選択できる。\n入力した日付は、ユーザーのタイムゾーンにかかわらず、すべてのユーザーで同じ日付が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-6 日付と時刻"
+      },
+      {
+        "label": "D",
+        "text": "日時：日付と時刻を組み合わせた、日時を入力するフィールド。\n入力した日時は、ユーザーのタイムゾーンにかかわらず、すべてのユーザーで同じ日付や時刻が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-6 日付と時刻"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 101,
+    "category": "アプリ",
+    "content": "「アプリの設定」→「フォーム」タブで、「ラジオボタン」フィールドの説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "複数選択が可能である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040535.html",
+        "textReference": "2-2-5 選択肢"
+      },
+      {
+        "label": "B",
+        "text": "項目の順番を変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040535.html",
+        "textReference": "2-2-5 選択肢"
+      },
+      {
+        "label": "C",
+        "text": "最大100個までの選択肢を設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040535.html",
+        "textReference": "2-2-5 選択肢"
+      },
+      {
+        "label": "D",
+        "text": "初期値を設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040535.html",
+        "textReference": "2-2-5 選択肢"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 102,
+    "category": "アプリ",
+    "content": "レコードを「ファイルに書き出す」および「ファイルから読み込む」機能の説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "最大10MB、1,000行、500列までのExcelブック形式のファイルを読み込める。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040724.html",
+        "textReference": "1-6-2 ファイルからのレコード読み込み"
+      },
+      {
+        "label": "B",
+        "text": "「ファイルに書き出す」および「ファイルから読み込む」機能について、アクセス権の初期設定では、アプリの作成者だけに許可されている。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040455.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "「関連レコード」フィールドの値は、書き出し、読み込みができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040455.html",
+        "textReference": "1-6-1 ファイルへのレコード書き出し"
+      },
+      {
+        "label": "D",
+        "text": "変更履歴はファイルに書き出しできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040455.html",
+        "textReference": "1-6-1 ファイルへのレコード書き出し"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 103,
+    "category": "アプリ",
+    "content": "プロセス管理機能を無効にするときの説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "既存のレコードのステータスやステータスの変更履歴の情報は保持されるが、作業者を条件にして設定しているレコードの絞り込みやアクセス権の設定は削除される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040570.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "B",
+        "text": "ほかのアプリのルックアップフィールドの設定で、このアプリのプロセス管理の作業者／ステータスが指定されていると、プロセス管理は無効にできない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040570.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "C",
+        "text": "プロセス管理機能を一度無効にすると、再度有効にしても、各レコードは無効にする直前のステータスにはならない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040570.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      },
+      {
+        "label": "D",
+        "text": "ほかのアプリの関連レコード一覧フィールドの設定で、このアプリのプロセス管理の作業者／ステータスが指定されていても、プロセス管理機能を無効にできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040570.html",
+        "textReference": "3-3-2 プロセス管理の設定"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 104,
+    "category": "アプリ",
+    "content": "言語ごとの名称を設定できる項目として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "グループ内に配置したフィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040557.html",
+        "textReference": "3-7-2 言語ごとの名称"
+      },
+      {
+        "label": "B",
+        "text": "アプリの説明",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040557.html",
+        "textReference": "3-7-2 言語ごとの名称"
+      },
+      {
+        "label": "C",
+        "text": "グラフ名",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040557.html",
+        "textReference": "3-7-2 言語ごとの名称"
+      },
+      {
+        "label": "D",
+        "text": "ラベルフィールド",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040557.html",
+        "textReference": "3-7-2 言語ごとの名称"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 105,
+    "category": "アプリ",
+    "content": "アプリの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリを作成することで、データや業務プロセスを管理できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040714.html",
+        "textReference": "1-1-2 アプリとは"
+      },
+      {
+        "label": "B",
+        "text": "レコード一覧画面では、1つのレコードをあらかじめ設定した任意の行数に渡って表示できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040714.html",
+        "textReference": "1-4-2 一覧の作成"
+      },
+      {
+        "label": "C",
+        "text": "データの追加、編集、および削除はフィールドごとに行う。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040714.html",
+        "textReference": "1-1-2 アプリとは"
+      },
+      {
+        "label": "D",
+        "text": "レコード一覧画面から特定のレコードを開くと、レコード詳細画面を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040714.html",
+        "textReference": "1-1-2 アプリとは"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 106,
+    "category": "アプリ",
+    "content": "Excelファイルからアプリを作成する際の説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "最大1MB、1,000行×500列までのExcelファイルを読み込める。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040625.html",
+        "textReference": "1-1-6 方法3：Excelファイルからアプリを作成する"
+      },
+      {
+        "label": "B",
+        "text": "帳簿や伝票のような、複雑なレイアウトの帳票形式のファイルも読み込める。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040625.html",
+        "textReference": "1-1-6 方法3：Excelファイルからアプリを作成する"
+      },
+      {
+        "label": "C",
+        "text": "ブック形式で複数のシートが含まれているファイルの場合、全てのシートが同一の表形式であればまとめて読み込める。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040625.html",
+        "textReference": "1-1-6 方法3：Excelファイルからアプリを作成する"
+      },
+      {
+        "label": "D",
+        "text": "ファイルがパスワードで保護されている場合、作成したアプリもパスワードで保護される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040625.html",
+        "textReference": "1-1-6 方法3：Excelファイルからアプリを作成する"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 107,
+    "category": "アプリ",
+    "content": "グラフ設定と定期レポートの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "グラフを削除すると、削除した時点からの定期レポートは閲覧できなくなるが、過去の定期レポートは閲覧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040582.html",
+        "textReference": "1-5-3 グラフ設定と定期レポート"
+      },
+      {
+        "label": "B",
+        "text": "グラフの作成や変更、削除を行うには、アプリの管理権限が必要である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040586.html",
+        "textReference": "1-5-3 グラフ設定と定期レポート"
+      },
+      {
+        "label": "C",
+        "text": "定期レポートは、グラフの種類に関わらず設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040582.html",
+        "textReference": "1-5-3 グラフ設定と定期レポート"
+      },
+      {
+        "label": "D",
+        "text": "アクセス権で閲覧が制限されているレコードが集計対象となっている場合でも、定期レポートを閲覧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040582.html",
+        "textReference": "1-5-3 グラフ設定と定期レポート"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 108,
+    "category": "アプリ",
+    "content": "家賃に共益費を足した数値を、100円単位になるようにそれ以下の桁を四捨五入したい。（例：1230円 → 1200円）\nROUND関数を使った計算式として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ROUND(家賃+共益費,2)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "B",
+        "text": "ROUNDDOWN(家賃+共益費,2)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "ROUNDUP(家賃+共益費,-2)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "ROUND(家賃+共益費,-2)",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040508.html",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 109,
+    "category": "アプリ",
+    "content": "アプリの設定画面で、画面上部に「反映前の変更があります」というバナーが表示されている。\n状況の説明として、適切でないものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "設定タブの[アプリの動作テスト]をクリックすると、反映前の変更内容の動作を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040473.html#app_settings_app_changesettings_20",
+        "textReference": "2-1-2 フォームの設定"
+      },
+      {
+        "label": "B",
+        "text": "「フォーム」タブの「フォームを保存」をクリックすると、フォームの内容が運用環境に反映される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040473.html#app_settings_app_changesettings_20",
+        "textReference": "2-1-2 フォームの設定"
+      },
+      {
+        "label": "C",
+        "text": "自分が実施した変更だけでなく、他のユーザーの未反映の変更があると表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040473.html#app_settings_app_changesettings_20",
+        "textReference": "2-1-2 フォームの設定"
+      },
+      {
+        "label": "D",
+        "text": "未反映の設定変更について、最終更新者や日時を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040473.html#app_settings_app_changesettings_20",
+        "textReference": "2-1-2 フォームの設定"
+      }
+    ],
+    "correctAnswer": "BD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 110,
+    "category": "アプリ",
+    "content": "「リンク」フィールドの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "入力されたWebサイトのアドレスにカーソルを合わせると、リンク先のサムネイルが表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040532.html",
+        "textReference": "2-2-8 リンク"
+      },
+      {
+        "label": "B",
+        "text": "入力された電話番号をクリックすると、Skypeなどが起動して、電話をかけることができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040532.html",
+        "textReference": "2-2-8 リンク"
+      },
+      {
+        "label": "C",
+        "text": "入力されたメールアドレスをクリックすると、メールソフトが起動して、メールを送信できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040532.html",
+        "textReference": "2-2-8 リンク"
+      },
+      {
+        "label": "D",
+        "text": "入力値に対して、最小文字数と最大文字数を指定できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040532.html",
+        "textReference": "2-2-8 リンク"
+      }
+    ],
+    "correctAnswer": "BC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 111,
+    "category": "アプリ",
+    "content": "フォームを装飾するフィールドの説明として、適切なものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「スペース」フィールドのサイズ間隔は、決まっている。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-10 表示のみのフィールド"
+      },
+      {
+        "label": "B",
+        "text": "グループ化したフィールドは、常に非表示の状態になる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-10 表示のみのフィールド"
+      },
+      {
+        "label": "C",
+        "text": "「罫線」は線の種類を選択できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-10 表示のみのフィールド"
+      },
+      {
+        "label": "D",
+        "text": "「ラベル」は表示のみのフィールドで、レコード追加時にデータを入力できない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html",
+        "textReference": "2-2-2 ラベル"
+      }
+    ],
+    "correctAnswer": "D",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 112,
+    "category": "アプリ",
+    "content": "レコードの一覧画面で編集できるフィールドの種類として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ユーザー選択",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040718.html",
+        "textReference": "1-4-4 一覧でのレコードの編集"
+      },
+      {
+        "label": "B",
+        "text": "リンク",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040718.html",
+        "textReference": "1-4-4 一覧でのレコードの編集"
+      },
+      {
+        "label": "C",
+        "text": "ラベル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040718.html",
+        "textReference": "1-4-4 一覧でのレコードの編集"
+      },
+      {
+        "label": "D",
+        "text": "文字列（複数行）",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040718.html",
+        "textReference": "1-4-4 一覧でのレコードの編集"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 113,
+    "category": "アプリ",
+    "content": "レコードの作成、更新時に自動入力されるフィールドの種類として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "レコード番号",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html#form_form_parts_50",
+        "textReference": "2-2-11 自動入力されるフィールド"
+      },
+      {
+        "label": "B",
+        "text": "ラベル",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html#form_form_parts_50",
+        "textReference": "2-2-2 ラベル"
+      },
+      {
+        "label": "C",
+        "text": "作成者",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html#form_form_parts_50",
+        "textReference": "2-2-11 自動入力されるフィールド"
+      },
+      {
+        "label": "D",
+        "text": "更新日時",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040513.html#form_form_parts_50",
+        "textReference": "2-2-11 自動入力されるフィールド"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 114,
+    "category": "アプリ",
+    "content": "数値の計算の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「計算」フィールド、または「文字列（1行）」フィールドに計算式を設定し、数値の計算をする。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040509.html#autocalc_set_autocalc_30",
+        "textReference": "2-4-1 計算"
+      },
+      {
+        "label": "B",
+        "text": "数値の計算式で使用できる演算子は、「+」、「-」、「*」、「/」、「^」である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040509.html#autocalc_set_autocalc_30",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "C",
+        "text": "ROUND関数や「計算」フィールドの「小数点以下の表示桁数」の設定は、「高度な設定」の「小数部の桁数」よりも優先される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040509.html#autocalc_set_autocalc_30",
+        "textReference": "2-4-3 計算式"
+      },
+      {
+        "label": "D",
+        "text": "(フィールドA - 1000) * 2 のような、（）を使った計算ができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040509.html#autocalc_set_autocalc_30",
+        "textReference": "2-4-3 計算式"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 115,
+    "category": "アプリ",
+    "content": "アプリアクションで、コピー先に「ルックアップ」フィールドを指定したい。コピー元のフィールドとして、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "文字列（1行）",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040486.html",
+        "textReference": "3-7-5 アクション（アプリアクション）"
+      },
+      {
+        "label": "B",
+        "text": "文字列（複数行）",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040486.html",
+        "textReference": "3-7-5 アクション（アプリアクション）"
+      },
+      {
+        "label": "C",
+        "text": "数値",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040486.html",
+        "textReference": "3-7-5 アクション（アプリアクション）"
+      },
+      {
+        "label": "D",
+        "text": "ドロップダウン",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040486.html",
+        "textReference": "3-7-5 アクション（アプリアクション）"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 116,
+    "category": "スペース",
+    "content": "スペースの作成に関する説明として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "スペースを「はじめから作る」場合、「スペースの参加/退会、スレッドのフォロー/フォロー解除を禁止する」を選択すると、スペースに参加していないユーザーに対して、スペースへの参加と、スレッドのフォローが禁止される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040692.html",
+        "textReference": "4-1-2 スペースの追加"
+      },
+      {
+        "label": "B",
+        "text": "ゲストスペースは、cybozu.com共通管理者のみが作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040648.html",
+        "textReference": "4-3-2 ゲストスペースの追加"
+      },
+      {
+        "label": "C",
+        "text": "スペースにメンバーを追加するには、組織／グループを選択したあとに追加する必要がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040692.html",
+        "textReference": "4-1-2 スペースの追加"
+      },
+      {
+        "label": "D",
+        "text": "スペースを作成する際、「おすすめから選ぶ」を選択して作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040692.html",
+        "textReference": "4-1-2 スペースの追加"
+      }
+    ],
+    "correctAnswer": "A",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 117,
+    "category": "スペース",
+    "content": "スペースで宛先を指定してコメントを書き込む際の注意点として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "非公開スペースで宛先を指定してコメントを書き込むと、スペースに参加していなくても通知が送信される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040291.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "B",
+        "text": "非公開スペースでは、「Everyone」グループを宛先に指定してコメントしても、スペースに参加中のユーザーには通知が送信されない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040291.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "C",
+        "text": "公開スペースで宛先を指定してコメントを書き込むと、スペースをフォローしているかどうかにかかわらず、相手に通知が送信される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040291.html",
+        "textReference": "4-2-2 スレッド"
+      },
+      {
+        "label": "D",
+        "text": "スペースの宛先に組織やグループを指定する場合、指定した組織やグループをクリックして、「宛先になるユーザーを確認」をクリックすると、宛先になるユーザーが確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040291.html",
+        "textReference": "4-2-2 スレッド"
+      }
+    ],
+    "correctAnswer": "CD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 118,
+    "category": "スペース",
+    "content": "スペーステンプレートの説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ほかのドメインのkintoneで書き出したスペーステンプレートのファイルは、読み込めない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04074.html",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "B",
+        "text": "kintoneシステム管理者は、作成済みのスペースをテンプレート化できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04074.html",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "C",
+        "text": "スペーステンプレートの管理画面で、編集ボタンをクリックすると、スペーステンプレートの名前と説明を編集できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04074.html",
+        "textReference": "5-3-3 スペースの管理"
+      },
+      {
+        "label": "D",
+        "text": "作成したスペーステンプレートは、スペース管理画面で一覧表示できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04074.html",
+        "textReference": "5-3-3 スペースの管理"
+      }
+    ],
+    "correctAnswer": "BC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 119,
+    "category": "スペース",
+    "content": "スペースの設定変更に関する説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「参加メンバーだけにこのスペースを公開する」機能を有効にすると、スペースの参加者以外のユーザーには、スペースが表示されない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040696.html",
+        "textReference": "4-1-3 スペースの設定の変更"
+      },
+      {
+        "label": "B",
+        "text": "「スペースのポータルと複数のスレッドを使用する」機能は、有効から無効に設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040696.html",
+        "textReference": "4-1-3 スペースの設定の変更"
+      },
+      {
+        "label": "C",
+        "text": "「スペースの参加/退会、スレッドのフォロー/フォロー解除を禁止する」機能を有効にすると、スペースに未参加のユーザーに対して、スペースへの参加と、スレッドのフォローが禁止される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040696.html",
+        "textReference": "4-1-3 スペースの設定の変更"
+      },
+      {
+        "label": "D",
+        "text": "「スペースの参加/退会、スレッドのフォロー/フォロー解除を禁止する」機能を有効にすると、スペースの参加メンバーに対して、スペースからの退会と、スレッドのフォローの解除が禁止される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040696.html",
+        "textReference": "4-1-3 スペースの設定の変更"
+      }
+    ],
+    "correctAnswer": "ACD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 120,
+    "category": "スペース",
+    "content": "スペース内アプリの説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "スペース内アプリは、「Private」アプリグループに所属する。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040709.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      },
+      {
+        "label": "B",
+        "text": "非公開のスペースに所属するアプリには、スペースのメンバーだけがアクセスできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040709.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      },
+      {
+        "label": "C",
+        "text": "参加していないスペースのアプリは、kintoneのポータルの「すべてのアプリ」には表示されない。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040709.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      },
+      {
+        "label": "D",
+        "text": "初期設定では、そのスペースを閲覧可能でアプリの作成権限を持つユーザーであれば、スペース内アプリを作成できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040695.html",
+        "textReference": "4-2-3 スペース内アプリ"
+      }
+    ],
+    "correctAnswer": "BCD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 121,
+    "category": "管理者設定",
+    "content": "「cybozu.com共通管理」→「グループ（ロール）」で設定できるグループの説明として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「静的グループ」と「動的グループ」の2つのタイプがあり、一度設定したタイプは途中で変更できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020170.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "B",
+        "text": "グループを削除すると、グループの所属ユーザーを一括で削除できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020170.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "アクセス権の設定や、コメント、通知の宛先などに利用できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020170.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      },
+      {
+        "label": "D",
+        "text": "kintoneでグループを選択する際の表示順を変更できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020170.html",
+        "textReference": "5-1-5 グループ（ロール）と所属ユーザーの設定"
+      }
+    ],
+    "correctAnswer": "AB",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 122,
+    "category": "管理者設定",
+    "content": "組織間のアクセス権の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "組織間のアクセスを禁止すると、プロフィールの閲覧、検索、項目や選択肢での表示を制限できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020164.html",
+        "textReference": "5-1-9 組織間のアクセス権"
+      },
+      {
+        "label": "B",
+        "text": "組織間のアクセスを禁止すると、kintone APIを経由しても、権限のないユーザーや組織の情報は取得できない。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020164.html",
+        "textReference": "5-1-9 組織間のアクセス権"
+      },
+      {
+        "label": "C",
+        "text": "組織間のアクセス権は、「kintoneシステム管理」で設定する。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020164.html",
+        "textReference": "5-1-9 組織間のアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "組織間のアクセスを禁止しても、Webhookが利用できる。",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020164.html",
+        "textReference": "5-1-9 組織間のアクセス権"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 123,
+    "category": "管理者設定",
+    "content": "kintoneのアプリ管理権限を持つシステム管理者ができる操作として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kintoneシステム管理やアプリにプラグインを追加できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04058.html#permission_admin_permissions_concept_20",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "B",
+        "text": "アプリ管理の「アプリの一覧」で、自分が管理権限をもつアプリの添付ファイルサイズの合計を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04012.html",
+        "textReference": "5-3-2 アプリの管理"
+      },
+      {
+        "label": "C",
+        "text": "プラグインの一覧をCSV形式でダウンロードできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/0409.html",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "新機能の先行利用や、現在開発中の新機能の一部を有効化できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04058.html#permission_admin_permissions_concept_20",
+        "textReference": "5-3-7 その他の管理"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 124,
+    "category": "管理者設定",
+    "content": "kintoneのヘッダーとログインページのカスタマイズに関する説明として、正しいものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kintone画面左上に表示するロゴを、自社のロゴに変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04038.html",
+        "textReference": "5-2-6 ロゴとログインページのカスタマイズ"
+      },
+      {
+        "label": "B",
+        "text": "ヘッダーの設定で、ロゴのリンク先URLを空欄にすると、リンクが無効になる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04038.html",
+        "textReference": "5-2-6 ロゴとログインページのカスタマイズ"
+      },
+      {
+        "label": "C",
+        "text": "「cybozu.com共通管理」→「カスタマイズ」で、ヘッダーとログインページのカスタマイズができる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04038.html",
+        "textReference": "5-2-6 ロゴとログインページのカスタマイズ"
+      },
+      {
+        "label": "D",
+        "text": "ログインページの設定で、タイトルを変更すると、サイボウズドットコム ストアに登録された会社名も同時に変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04038.html",
+        "textReference": "5-2-6 ロゴとログインページのカスタマイズ"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 125,
+    "category": "管理者設定",
+    "content": "kintoneのアクセス権の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kintoneシステム管理者は、アクセス権の管理画面で、システムの管理／アプリの作成／スペースの作成等、ユーザーに許可する権限を設定できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04062.html",
+        "textReference": "5-3-5 権限の管理"
+      },
+      {
+        "label": "B",
+        "text": "kintoneの初期設定では、cybozu.com共通管理者だけに「アプリの作成」が許可されている。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04062.html",
+        "textReference": "5-3-5 権限の管理"
+      },
+      {
+        "label": "C",
+        "text": "アプリ管理者が設定できるアクセス権として、アプリの管理権限、レコードの閲覧／追加／編集／削除の権限、およびファイルの書き出し／読み込みの権限がある。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040589.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      },
+      {
+        "label": "D",
+        "text": "アプリグループのアクセス権の設定が、各アプリの設定よりも優先される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04025.html",
+        "textReference": "3-6-2 アプリのアクセス権"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 126,
+    "category": "管理者設定",
+    "content": "ゲストに設定できないセキュリティ対策をすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SAML認証を有効にする",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04035.html#guest_manage_guest_40",
+        "textReference": "5-3-4 ゲストユーザーの管理"
+      },
+      {
+        "label": "B",
+        "text": "パスワードの有効期間",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04035.html#guest_manage_guest_40",
+        "textReference": "5-3-4 ゲストユーザーの管理"
+      },
+      {
+        "label": "C",
+        "text": "IPアドレス制限",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04035.html#guest_manage_guest_40",
+        "textReference": "5-3-4 ゲストユーザーの管理"
+      },
+      {
+        "label": "D",
+        "text": "二段階認証",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/04035.html#guest_manage_guest_40",
+        "textReference": "5-3-4 ゲストユーザーの管理"
+      }
+    ],
+    "correctAnswer": "AC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 127,
+    "category": "管理者設定",
+    "content": "kintoneの「アクセス状況の一覧」をCSV形式でダウンロードしたとき、ファイルに含まれる内容をすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ユーザーの最終アクセス日",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040782.html#admin_user_monitoring_40",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "B",
+        "text": "ゲストユーザーのアクセス状況",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040782.html#admin_user_monitoring_40",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "C",
+        "text": "ユーザーの過去30日間のアクセス回数",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040782.html#admin_user_monitoring_40",
+        "textReference": "5-3-7 その他の管理"
+      },
+      {
+        "label": "D",
+        "text": "ユーザーの過去30日間のアクセス日数",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040782.html#admin_user_monitoring_40",
+        "textReference": "5-3-7 その他の管理"
+      }
+    ],
+    "correctAnswer": "AD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 128,
+    "category": "管理者設定",
+    "content": "「cybozu.com共通管理」→「組織とユーザーの設定」で、設定できることを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「cybozu.com共通管理」の一時的な管理者の追加",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020265.html",
+        "textReference": "5-4-3 ドメイン管理"
+      },
+      {
+        "label": "B",
+        "text": "クライアント証明書の発行",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/02062.html#list_secureaccess_secureaccess_30",
+        "textReference": "5-1-3 組織の設定"
+      },
+      {
+        "label": "C",
+        "text": "ユーザーの使用停止、再開",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020252.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "D",
+        "text": "削除したユーザーの復旧",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020227.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      }
+    ],
+    "correctAnswer": "C",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 129,
+    "category": "その他",
+    "content": "kintoneのモバイル版でできる操作として、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "アプリの作成および設定",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html",
+        "textReference": "6-8-4 モバイル版でできないこと"
+      },
+      {
+        "label": "B",
+        "text": "レコードの集計条件の指定",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html",
+        "textReference": "6-8-4 モバイル版でできないこと"
+      },
+      {
+        "label": "C",
+        "text": "スペースとスレッドの作成",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html",
+        "textReference": "6-8-4 モバイル版でできないこと"
+      },
+      {
+        "label": "D",
+        "text": "お気に入りの追加や削除",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040668.html",
+        "textReference": "6-8-3 モバイル版の画面"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 130,
+    "category": "その他",
+    "content": "ブックマークの説明として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "絞り込みが適用されたレコードの一覧ページや、集計結果や検索結果のページもブックマークできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040289.html",
+        "textReference": "6-2-2 ページをブックマークする"
+      },
+      {
+        "label": "B",
+        "text": "ブックマークとして保存したページは、アプリ、検索結果、その他のカテゴリーに分類されて、ブックマーク一覧に表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040289.html",
+        "textReference": "6-2-2 ページをブックマークする"
+      },
+      {
+        "label": "C",
+        "text": "ページのURLを保存する機能である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040289.html",
+        "textReference": "6-2-2 ページをブックマークする"
+      },
+      {
+        "label": "D",
+        "text": "Webブラウザーごとに保存される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040289.html",
+        "textReference": "6-2-2 ページをブックマークする"
+      }
+    ],
+    "correctAnswer": "ABC",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 131,
+    "category": "その他",
+    "content": "「report_0401.docx」いう名前のファイルを検索したい。\nポータル画面で検索にヒットするものとして、誤っているものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "report",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "B",
+        "text": "01.docx",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "C",
+        "text": "report_0401",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      },
+      {
+        "label": "D",
+        "text": "401",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040689.html",
+        "textReference": "6-3-3 検索の注意点"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 132,
+    "category": "その他",
+    "content": "通知の説明について、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "自分宛の通知を受信すると、通知アイコンに受信した通知の数が表示される。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040672.html",
+        "textReference": "6-4-1 通知の確認"
+      },
+      {
+        "label": "B",
+        "text": "通知を閲覧できる期間は120日間だが、「あとで読む」マークを付けた通知は、マークを外すまでは閲覧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040672.html",
+        "textReference": "6-4-1 通知の確認"
+      },
+      {
+        "label": "C",
+        "text": "スマートフォン用アプリでプッシュ通知を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040672.html",
+        "textReference": "6-8-2 kintoneモバイル"
+      },
+      {
+        "label": "D",
+        "text": "ポータルと「通知」ページでは、表示する通知を絞り込みできる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040672.html",
+        "textReference": "6-4-1 通知の確認"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 133,
+    "category": "その他",
+    "content": "ピープル機能の説明として、誤っているものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "自分のピープルのカバー画像を変更できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040679.html",
+        "textReference": "6-5-1 ピープル機能"
+      },
+      {
+        "label": "B",
+        "text": "自分のピープルに投稿した内容は、自分をフォローしているユーザーだけが閲覧できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040679.html",
+        "textReference": "6-5-1 ピープル機能"
+      },
+      {
+        "label": "C",
+        "text": "ほかのユーザーと1対1でやり取りができるメッセージは、送信者と受信者以外には非公開である。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040651.html",
+        "textReference": "6-5-1 ピープル機能"
+      },
+      {
+        "label": "D",
+        "text": "ほかのユーザーのプロフィールと連絡先を確認できる。",
+        "helpUrl": "https://jp.cybozu.help/k/ja/id/040679.html",
+        "textReference": "6-5-1 ピープル機能"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 134,
+    "category": "その他",
+    "content": "ユーザーを検索する際、候補として表示される検索方法として、正しいものを1つ選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "「cybozu.com共通管理」の「ユーザー」で設定したメールアドレスで検索",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020258.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "B",
+        "text": "「cybozu.com共通管理」の「ユーザー」で設定したログイン名の一部分で検索",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020258.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "C",
+        "text": "「cybozu.com共通管理」の「グループ」で設定したグループ名の一部分で検索",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020258.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      },
+      {
+        "label": "D",
+        "text": "「cybozu.com共通管理」の「グループ」で設定したグループコードの一部分で検索",
+        "helpUrl": "https://jp.cybozu.help/general/ja/id/020258.html",
+        "textReference": "5-1-2 ユーザーの設定"
+      }
+    ],
+    "correctAnswer": "B",
+    "isMultiple": false,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  },
+  {
+    "id": 135,
+    "category": "その他",
+    "content": "ライトコースで、有料オプション申込無しで設定できるセキュリティ対策として、適切なものをすべて選びなさい。",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ログインパスワードの有効期間",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "B",
+        "text": "IPアドレス制限",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "C",
+        "text": "セキュアアクセス",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "5-2-1 セキュリティの設定"
+      },
+      {
+        "label": "D",
+        "text": "Basic認証",
+        "helpUrl": "https://kintone.cybozu.co.jp/price/",
+        "textReference": "5-2-1 セキュリティの設定"
+      }
+    ],
+    "correctAnswer": "ABD",
+    "isMultiple": true,
+    "exam": "2024年10月31日改定",
+    "sourceFile": "result3.csv"
+  }
+]
