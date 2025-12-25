@@ -43,13 +43,13 @@ export default function ResultPage({ result, onRetry }: Props) {
   const rank = getRankMessage()
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="bg-gray-50 py-8 px-4">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">
           学習結果
         </h1>
 
-        <div className="bg-white border border-gray-200 rounded p-6 mb-5 text-center">
+        <div className="bg-white  p-6 mb-5 text-center">
           <p className={`text-lg font-bold ${rank.color} mb-2`}>{rank.text}</p>
           <div className="text-5xl font-bold text-gray-800 mb-2">
             {correctRate}
@@ -63,7 +63,7 @@ export default function ResultPage({ result, onRetry }: Props) {
           </p>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded p-5 mb-5">
+        <div className="bg-white  p-5 mb-5">
           <h2 className="text-base font-semibold text-gray-700 mb-4">
             カテゴリ別成績
           </h2>
@@ -90,7 +90,7 @@ export default function ResultPage({ result, onRetry }: Props) {
         </div>
 
         {incorrectAnswers.length > 0 && (
-          <div className="bg-white border border-gray-200 rounded p-5 mb-5">
+          <div className="bg-white  p-5 mb-5">
             <h2 className="text-base font-semibold text-gray-700 mb-4">
               間違えた問題 ({incorrectAnswers.length}問)
             </h2>
@@ -103,13 +103,13 @@ export default function ResultPage({ result, onRetry }: Props) {
                 return (
                   <div
                     key={answer.questionId}
-                    className="p-4 bg-red-50 rounded border border-red-200"
+                    className="p-4 bg-red-100 "
                   >
                     <div className="flex justify-between items-start mb-2">
                       <span className="text-sm font-medium text-red-700">
                         問{index + 1}
                       </span>
-                      <span className="text-xs px-2 py-0.5 bg-red-100 text-red-600 rounded">
+                      <span className="text-xs px-2 py-0.5 bg-red-100 text-red-600 ">
                         {question.category}
                       </span>
                     </div>
@@ -143,7 +143,7 @@ export default function ResultPage({ result, onRetry }: Props) {
 
         <button
           onClick={onRetry}
-          className="w-full py-3.5 rounded text-base font-semibold bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+          className="w-full py-3.5  text-base font-semibold bg-blue-500 text-white hover:bg-blue-600 transition-colors"
         >
           もう一度挑戦
         </button>

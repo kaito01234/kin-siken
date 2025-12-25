@@ -173,86 +173,92 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
 
     if (!isAnswered) {
       return isSelected
-        ? 'border-blue-500 bg-blue-50'
-        : 'border-gray-200 hover:border-gray-300'
+        ? 'bg-blue-500 text-white'
+        : 'bg-gray-100 hover:bg-gray-200'
     }
 
     if (isCorrect) {
-      return 'border-emerald-500 bg-emerald-50'
+      return 'bg-green-500 text-white'
     }
 
     if (isSelected && !isCorrect) {
-      return 'border-red-500 bg-red-50'
+      return 'bg-red-500 text-white'
     }
 
-    return 'border-gray-200'
+    return 'bg-gray-100'
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-4 px-4">
+    <div className="bg-white py-4 px-4">
       <div className="max-w-3xl mx-auto">
-        <div className="bg-white border border-gray-200 rounded mb-4 p-4">
-          <div className="flex justify-between items-center mb-2">
-            <span className="text-sm text-gray-500">
-              問題 {currentIndex + 1} / {questions.length}
-            </span>
-            <div className="flex items-center gap-2">
+        {/* ヘッダー */}
+        <div className="border-b border-gray-300 pb-3 mb-4">
+          <div className="flex justify-between items-center">
+            <h1 className="text-lg font-bold text-gray-800">
+              問{currentIndex + 1}
+              <span className="text-sm font-normal text-gray-500 ml-2">
+                （{currentQuestion.category}）
+              </span>
+            </h1>
+            <div className="flex items-center gap-3 text-sm">
+              <span className="text-gray-500">{currentIndex + 1} / {questions.length}</span>
               <button
                 onClick={() => setShowStats(true)}
-                className="text-sm px-2.5 py-1 bg-gray-100 hover:bg-gray-200 rounded text-gray-600 transition-colors"
+                className="text-blue-600 hover:underline"
               >
                 途中成績
               </button>
-              <span className="text-sm px-2.5 py-1 bg-gray-100 rounded text-gray-500">
-                {currentQuestion.category}
-              </span>
             </div>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-1.5">
-            <div
-              className="bg-blue-500 h-1.5 rounded-full transition-all"
-              style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
-            />
-          </div>
+          {currentQuestion.isMultiple && (
+            <span className="inline-block mt-2 text-sm text-orange-600">
+              ※ 複数選択問題です
+            </span>
+          )}
         </div>
 
-        <div className="bg-white border border-gray-200 rounded p-5 mb-4">
-          <div className="mb-2">
-            {currentQuestion.isMultiple && (
-              <span className="inline-block px-2 py-0.5 text-xs font-medium bg-amber-100 text-amber-700 rounded mb-2">
-                複数選択
-              </span>
-            )}
-          </div>
+        {/* 問題文 */}
+        <div className="mb-6">
           <p className="text-gray-800 whitespace-pre-wrap leading-relaxed">
             {currentQuestion.content}
           </p>
         </div>
 
-        <div className="space-y-2 mb-5">
-          {displayChoices.map((choice) => (
-            <button
-              key={choice.label}
-              onClick={() => handleSelectAnswer(choice.label)}
-              disabled={isAnswered}
-              className={`w-full text-left p-4 rounded border transition-colors ${getChoiceStyle(choice)}`}
-            >
-              <div className="flex items-start">
-                <span className="font-semibold text-gray-500 mr-3 flex-shrink-0">
-                  {choice.label}.
-                </span>
-                <span className="text-gray-700">{choice.text}</span>
+        {/* 選択肢 */}
+        <div className="mb-6 space-y-2">
+          {displayChoices.map((choice) => {
+            const isSelected = selectedAnswers.includes(choice.label)
+            const isCorrect = isAnswered && currentQuestion.correctAnswer.includes(choice.label)
+            const isWrong = isAnswered && isSelected && !isCorrect
+            const hasWhiteText = isSelected || isCorrect || isWrong
+            return (
+              <div
+                key={choice.label}
+                onClick={() => !isAnswered && handleSelectAnswer(choice.label)}
+                className={`py-3 px-4 cursor-pointer transition-colors ${isAnswered ? 'cursor-default' : ''} ${getChoiceStyle(choice)}`}
+              >
+                <div className="flex items-start">
+                  <span className={`mr-2 font-medium ${hasWhiteText ? 'text-white/80' : 'text-gray-500'}`}>
+                    {choice.label}.
+                  </span>
+                  <span className={hasWhiteText ? 'text-white' : 'text-gray-700'}>
+                    {choice.text}
+                  </span>
+                  {isCorrect && <span className="ml-2 text-white">◯</span>}
+                  {isWrong && <span className="ml-2 text-white">✕</span>}
+                </div>
               </div>
-            </button>
-          ))}
+            )
+          })}
         </div>
 
+        {/* 回答結果 */}
         {isAnswered && (
-          <div className={`p-4 rounded mb-4 ${
-            checkAnswer() ? 'bg-emerald-50 border border-emerald-300' : 'bg-red-50 border border-red-300'
+          <div className={`p-4 mb-4 ${
+            checkAnswer() ? 'bg-green-100' : 'bg-red-100'
           }`}>
-            <p className={`font-semibold ${checkAnswer() ? 'text-emerald-700' : 'text-red-700'}`}>
-              {checkAnswer() ? '正解!' : '不正解'}
+            <p className={`font-bold ${checkAnswer() ? 'text-green-700' : 'text-red-700'}`}>
+              {checkAnswer() ? '正解' : '不正解'}
             </p>
             <p className="text-gray-600 mt-1 text-sm">
               正答: {currentQuestion.correctAnswer.split('').join(', ')}
@@ -262,33 +268,34 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
                 href={currentQuestion.choices[0].helpUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 text-blue-600 hover:text-blue-700 text-sm"
+                className="inline-block mt-2 text-blue-600 hover:underline text-sm"
               >
-                解説を見る (ヘルプページ)
+                → 解説を見る
               </a>
             )}
           </div>
         )}
 
-        <div className="flex gap-3">
+        {/* ボタン */}
+        <div className="flex gap-3 border-t border-gray-200 pt-4">
           {!isAnswered ? (
             <button
               onClick={handleConfirm}
               disabled={selectedAnswers.length === 0}
-              className={`flex-1 py-3 rounded font-semibold transition-colors ${
+              className={`flex-1 py-2.5 rounded font-medium transition-colors ${
                 selectedAnswers.length > 0
-                  ? 'bg-blue-500 text-white hover:bg-blue-600'
-                  : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                  ? 'bg-blue-600 text-white hover:bg-blue-700'
+                  : 'bg-gray-300 text-gray-500 cursor-not-allowed'
               }`}
             >
-              回答を確定
+              解答する
             </button>
           ) : (
             <button
               onClick={handleNext}
-              className="flex-1 py-3 rounded font-semibold bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+              className="flex-1 py-2.5 rounded font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
             >
-              {currentIndex < questions.length - 1 ? '次の問題へ' : '結果を見る'}
+              {currentIndex < questions.length - 1 ? '次の問題へ →' : '結果を見る'}
             </button>
           )}
         </div>
@@ -297,7 +304,7 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
       {/* 途中成績モーダル */}
       {showStats && (
         <div className="fixed inset-0 bg-black/40 flex items-center justify-center p-4 z-50">
-          <div className="bg-white rounded max-w-md w-full max-h-[80vh] overflow-y-auto">
+          <div className="bg-white max-w-md w-full max-h-[80vh] overflow-y-auto">
             <div className="p-5">
               <div className="flex justify-between items-center mb-4">
                 <h2 className="text-lg font-bold text-gray-800">途中成績</h2>
@@ -335,7 +342,7 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
                     </div>
                   </div>
 
-                  <div className="border-t border-gray-100 pt-4">
+                  <div className="pt-4">
                     <h3 className="text-sm font-semibold text-gray-600 mb-3">
                       カテゴリ別
                     </h3>
@@ -361,7 +368,7 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
                     </div>
                   </div>
 
-                  <div className="border-t border-gray-100 mt-4 pt-4">
+                  <div className="mt-4 pt-4">
                     <p className="text-sm text-gray-400 text-center">
                       残り {questions.length - currentIndex - 1} 問
                     </p>
@@ -371,7 +378,7 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
 
               <button
                 onClick={() => setShowStats(false)}
-                className="w-full mt-4 py-2.5 rounded font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
+                className="w-full mt-4 py-2.5 font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
               >
                 閉じる
               </button>

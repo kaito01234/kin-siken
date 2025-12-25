@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/Header'
 import StartPage from './pages/StartPage'
 import QuizPage from './pages/QuizPage'
 import ResultPage from './pages/ResultPage'
@@ -39,20 +40,23 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {currentPage === 'start' && (
-        <StartPage onStart={handleStart} onResume={handleResume} />
-      )}
-      {currentPage === 'quiz' && quizConfig && (
-        <QuizPage
-          config={quizConfig}
-          onComplete={handleQuizComplete}
-          resumeSession={resumeSession}
-        />
-      )}
-      {currentPage === 'result' && quizResult && (
-        <ResultPage result={quizResult} onRetry={handleRetry} />
-      )}
+    <div className="min-h-screen bg-gray-50 flex flex-col">
+      <Header onHome={currentPage !== 'start' ? handleRetry : undefined} />
+      <div className="flex-1">
+        {currentPage === 'start' && (
+          <StartPage onStart={handleStart} onResume={handleResume} />
+        )}
+        {currentPage === 'quiz' && quizConfig && (
+          <QuizPage
+            config={quizConfig}
+            onComplete={handleQuizComplete}
+            resumeSession={resumeSession}
+          />
+        )}
+        {currentPage === 'result' && quizResult && (
+          <ResultPage result={quizResult} onRetry={handleRetry} />
+        )}
+      </div>
     </div>
   )
 }

@@ -75,17 +75,10 @@ export default function StartPage({ onStart, onResume }: Props) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="bg-gray-50 py-8 px-4">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
-          kintone 練習問題道場
-        </h1>
-        <p className="text-center text-gray-500 mb-8">
-          kintoneアソシエイト試験対策
-        </p>
-
         {savedSession && (
-          <div className="bg-amber-50 border border-amber-300 rounded p-5 mb-6">
+          <div className="bg-amber-100 p-5 mb-6">
             <h2 className="text-base font-semibold text-amber-800 mb-3">
               前回の続きがあります
             </h2>
@@ -103,13 +96,13 @@ export default function StartPage({ onStart, onResume }: Props) {
             <div className="flex gap-3">
               <button
                 onClick={handleResume}
-                className="flex-1 py-2.5 rounded font-medium bg-amber-500 text-white hover:bg-amber-600 transition-colors"
+                className="flex-1 py-2.5 font-medium bg-amber-500 text-white hover:bg-amber-600 transition-colors"
               >
                 続きから再開
               </button>
               <button
                 onClick={handleDiscardSession}
-                className="px-4 py-2.5 rounded font-medium border border-amber-400 text-amber-700 hover:bg-amber-100 transition-colors"
+                className="px-4 py-2.5 font-medium bg-amber-100 text-amber-700 hover:bg-amber-200 transition-colors"
               >
                 破棄
               </button>
@@ -117,7 +110,7 @@ export default function StartPage({ onStart, onResume }: Props) {
           </div>
         )}
 
-        <div className="bg-white border border-gray-200 rounded p-5 mb-5">
+        <div className="bg-white p-5 mb-5">
           <h2 className="text-base font-semibold text-gray-700 mb-4">
             カテゴリを選択
           </h2>
@@ -143,10 +136,10 @@ export default function StartPage({ onStart, onResume }: Props) {
               return (
                 <label
                   key={category}
-                  className={`flex items-center p-3 rounded border cursor-pointer transition-colors ${
+                  className={`flex items-center p-3 cursor-pointer transition-colors ${
                     isSelected
-                      ? 'border-blue-500 bg-blue-50'
-                      : 'border-gray-200 hover:border-gray-300'
+                      ? 'bg-blue-100'
+                      : 'bg-gray-50 hover:bg-gray-100'
                   }`}
                 >
                   <input
@@ -161,7 +154,7 @@ export default function StartPage({ onStart, onResume }: Props) {
                   </div>
                   <div
                     className={`w-5 h-5 rounded flex items-center justify-center ${
-                      isSelected ? 'bg-blue-500' : 'border border-gray-300'
+                      isSelected ? 'bg-blue-500' : 'bg-gray-300'
                     }`}
                   >
                     {isSelected && (
@@ -183,17 +176,17 @@ export default function StartPage({ onStart, onResume }: Props) {
           </p>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded p-5 mb-5">
+        <div className="bg-white p-5 mb-5">
           <h2 className="text-base font-semibold text-gray-700 mb-4">出題数</h2>
           <div className="flex flex-wrap gap-2">
             {[10, 20, 30, 'all'].map((count) => (
               <button
                 key={String(count)}
                 onClick={() => setQuestionCount(count as number | 'all')}
-                className={`px-4 py-2 rounded border transition-colors ${
+                className={`px-4 py-2 transition-colors ${
                   questionCount === count
-                    ? 'border-blue-500 bg-blue-50 text-blue-600'
-                    : 'border-gray-200 hover:border-gray-300 text-gray-600'
+                    ? 'bg-blue-100 text-blue-600'
+                    : 'bg-gray-50 hover:bg-gray-100 text-gray-600'
                 }`}
               >
                 {count === 'all' ? 'すべて' : `${count}問`}
@@ -202,24 +195,42 @@ export default function StartPage({ onStart, onResume }: Props) {
           </div>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded p-5 mb-6">
+        <div className="bg-white p-5 mb-6">
           <h2 className="text-base font-semibold text-gray-700 mb-4">オプション</h2>
           <div className="space-y-3">
-            <label className="flex items-center cursor-pointer">
+            <label className="flex items-center cursor-pointer p-2 hover:bg-gray-50 transition-colors">
+              <div className={`w-5 h-5 rounded flex items-center justify-center ${
+                shuffleQuestions ? 'bg-blue-500' : 'bg-gray-300'
+              }`}>
+                {shuffleQuestions && (
+                  <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                )}
+              </div>
               <input
                 type="checkbox"
                 checked={shuffleQuestions}
                 onChange={(e) => setShuffleQuestions(e.target.checked)}
-                className="w-4 h-4 text-blue-600 rounded border-gray-300"
+                className="sr-only"
               />
               <span className="ml-3 text-gray-600">問題をランダムに出題</span>
             </label>
-            <label className="flex items-center cursor-pointer">
+            <label className="flex items-center cursor-pointer p-2 hover:bg-gray-50 transition-colors">
+              <div className={`w-5 h-5 rounded flex items-center justify-center ${
+                shuffleChoices ? 'bg-blue-500' : 'bg-gray-300'
+              }`}>
+                {shuffleChoices && (
+                  <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                )}
+              </div>
               <input
                 type="checkbox"
                 checked={shuffleChoices}
                 onChange={(e) => setShuffleChoices(e.target.checked)}
-                className="w-4 h-4 text-blue-600 rounded border-gray-300"
+                className="sr-only"
               />
               <span className="ml-3 text-gray-600">選択肢をシャッフル</span>
             </label>
@@ -229,7 +240,7 @@ export default function StartPage({ onStart, onResume }: Props) {
         <button
           onClick={handleStart}
           disabled={selectedCategories.length === 0}
-          className={`w-full py-3.5 rounded text-base font-semibold transition-colors ${
+          className={`w-full py-3.5 text-base font-semibold transition-colors ${
             selectedCategories.length > 0
               ? 'bg-blue-500 text-white hover:bg-blue-600'
               : 'bg-gray-200 text-gray-400 cursor-not-allowed'
