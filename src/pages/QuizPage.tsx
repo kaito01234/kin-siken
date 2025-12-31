@@ -282,7 +282,7 @@ export default function QuizPage({ config, onComplete, resumeSession }: Props) {
             <button
               onClick={handleConfirm}
               disabled={selectedAnswers.length === 0}
-              className={`flex-1 py-2.5 rounded font-medium transition-colors ${
+              className={`flex-1 py-2.5 font-medium transition-colors ${
                 selectedAnswers.length > 0
                   ? 'bg-blue-600 text-white hover:bg-blue-700'
                   : 'bg-gray-300 text-gray-500 cursor-not-allowed'

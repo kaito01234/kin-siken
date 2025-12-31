@@ -1,4 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50">
-  <rect width="400" height="50" fill="#1e40af"/>
-  <text x="200" y="33" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">kintone 練習問題道場</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 50">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ミニマルな装飾要素 -->
+  <rect x="5" y="15" width="8" height="20" rx="4" fill="url(#barGrad)"/>
+  <rect x="17" y="10" width="8" height="30" rx="4" fill="#ffffff"/>
+  <rect x="29" y="17" width="8" height="16" rx="4" fill="url(#barGrad)" opacity="0.8"/>
+
+  <!-- メインテキスト -->
+  <text x="50" y="19" font-family="'SF Pro Display', 'Helvetica Neue', 'Noto Sans JP', sans-serif" font-size="14" font-weight="600" fill="#93c5fd" letter-spacing="0.5">
+    kintone
+  </text>
+  <text x="50" y="37" font-family="'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="1">
+    練習問題道場
+  </text>
 </svg>
